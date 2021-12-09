@@ -1,0 +1,180 @@
+{
+  "status": {
+    "fabio": "6|6|13|0=25",
+    "fritz": "3|7|13|0=23",
+    "bommel": "5|4|2=11",
+    "mattin": "4|3|0|0=7",
+    "chris": "2|5|0|0=7",
+    "dave": "7=7",
+    "niklas": "1=1"
+  },
+  "videos": [
+    {
+      "title": "Der Beginn | Folge 1",
+      "id": "GUCU22DismM"
+    },
+    {
+      "title": "Die Aussetzung | Folge 2",
+      "id": "f08GWiVNJEI"
+    },
+    {
+      "title": "Die Entscheidungen | Folge 3",
+      "id": "qMPu9BEQauA"
+    },
+    {
+      "title": "Bärengebiet | Folge 4",
+      "id": "CKS1f_62kc0"
+    },
+    {
+      "title": "Fatale Fackel-Fehler | Folge 5",
+      "id": "f50vxvUDc68"
+    },
+    {
+      "title": "Gegenstände abgeben | Folge 6",
+      "id": "GOCEBgBfcOo"
+    },
+    {
+      "title": "Folgenschwere Abgabe | Folge 7",
+      "id": "z9Gn0NhvYnY"
+    },
+    {
+      "title": "Rettung in der Nacht | Folge 8",
+      "id": "HzZfH4UNr6I"
+    },
+    {
+      "title": "Psychischer Verfall | Folge 9",
+      "id": "SdfST1OKklk"
+    },
+    {
+      "title": "Floß bauen | Folge 10",
+      "id": "NWC8gFrNb_o"
+    }
+  ],
+  "challenges": [
+    {
+      "title": "Anland Schwimmen",
+      "challengers": {
+        "dave": "03:07:31|7",
+        "fabio": "03:47:59|6",
+        "bommel": "04:17:49|5",
+        "mattin": "04:55:06|4",
+        "fritz": "05:01:09|3",
+        "chris": "05:02:45|2",
+        "niklas": "05:24:30|1"
+      }
+    },
+    {
+      "title": "Fackel Challenge",
+      "challengers": {
+        "fritz": "59:48|7",
+        "fabio": "07:18|6",
+        "chris": "02:45|5",
+        "bommel": "02:22|4",
+        "mattin": "01:42|3"
+      }
+    },
+    {
+      "title": "Gegenabstände Abgeben",
+      "challengers": {
+        "fabio": "Gürtel,Handschuhe,Boonie|13",
+        "fritz": "Topf,Paracord,Tarp,Angelset,Schlüpper,Gürtel,Handschuhe,Boonie,|13",
+        "bommel": "Gürtel,Boonie|2",
+        "chris": "Challange Flasch verstanden|0",
+        "mattin": "Challange Flasch verstanden|0"
+      }
+    },
+    {
+      "title": "Feuerbohren",
+      "challengers": {
+        "fabio": "Lange probiert aber kein Erfolg|0",
+        "chris": "Kerbe hat gefehlt und kein Erfolg|0",
+        "mattin": "Probiert aber leider kein Erfolg|0",
+        "fritz": "Kein Material gefunden, kein Feuerbohren|0"
+      }
+    },
+    {
+      "title": "Floß bauen",
+      "challengers": {
+        "fabio": "|",
+        "fritz": "|",
+        "chris": "|",
+        "mattin": "|"
+      }
+    }
+  ],
+  "reactions": {
+    "mattin": {
+      "2": "UmAj6pUXEa4",
+      "5": "hFDbWdSFlzw",
+      "6": "_n1oD4I34a8"
+    },
+    "chris": {
+      "1": "7M5AYDC2zjk",
+      "2": "UmAj6pUXEa4",
+      "3": "nNSUDyqkJBg",
+      "4": "Lq3XR-mrxds",
+      "5": "ni3Z6pFJhi4",
+      "6": "TeAFqckQrXM",
+      "7": "HcQtBeYeUQU",
+      "8": "spGyzLJJ-G8",
+      "9": "HwoY4JiGwuA",
+      "10": "mwqTkfjK10I",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": ""
+    },
+    "dave": {
+      "1": "i1L68_-v1yM",
+      "2": "tC8VK8Gj2bA"
+    },
+    "fabio": {
+      "1": "O9LG6JOAHWU",
+      "2": "q9P58BHp5Pc",
+      "3": "fI8Uux5xUJo",
+      "4": "LxDtkhM_BAk",
+      "5": "MUxVSVdPsHg",
+      "6": "TEA-tD-_LZY",
+      "7": "B7UMDcHPDXE",
+      "8": "6C5ZMjrqNrk",
+      "9": "ErOeDoTdc9k",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": ""
+    },
+    "fritz": {
+      "1": "VgQVALM9zP8",
+      "2": "ax3OYvJ20GE",
+      "3": "eGepeEvcYmw",
+      "4": "QB_c0Vzmlcs",
+      "5": "dV5duFIsDvo",
+      "6": "uinLdu_HRiQ",
+      "7": "GY0BO1B56Z8",
+      "8": "UPR7CXaWRtM",
+      "9": "g4ypa4ROtgM",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": ""
+    },
+    "robert-marc-lehmann": {
+      "1": "HjmVoAyodW4",
+      "2": "Xot5_0bAUpQ",
+      "3": "uZ1Nl7agCwY",
+      "4": "HpsQVN4WBGs",
+      "5": "u1XDubC7MCg",
+      "6": "wuLGGzh9Qj4",
+      "7": "F8YziOhtRxo",
+      "8": "nZpwkTS9tJE",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": ""
+    }
+  }
+}
