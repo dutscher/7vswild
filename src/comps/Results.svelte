@@ -9,7 +9,7 @@
 </script>
 
 <h2>
-    Aktueller Punktestand
+    Aktueller Punktestand (nach "{data.videos.reverse()[0].title}")
 </h2>
 <div class="results flex flex--wrap">
     {#each Object.entries(data.status) as [challenger, status]}

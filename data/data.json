@@ -52,7 +52,7 @@
   ],
   "challenges": [
     {
-      "title": "1. Anland Schwimmen",
+      "title": "Tag 1. an Land schwimmen",
       "challengers": {
         "dave": "03:07:31|7",
         "fabio": "03:47:59|6",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "title": "2. Fackel Challenge",
+      "title": "Tag 2. Fackel Challenge",
       "challengers": {
         "fritz": "59:48|7",
         "fabio": "07:18|6",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "title": "3. Gegenabstände Abgeben",
+      "title": "Tag 3. Gegenabstände abgeben",
       "challengers": {
         "fabio": "Gürtel,Handschuhe,Boonie|13",
         "fritz": "Topf,Paracord,Tarp,Angelset,Schlüpper,Gürtel,Handschuhe,Boonie,Socken|13",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "title": "4. Feuerbohren",
+      "title": "Tag 4. Feuerbohren",
       "challengers": {
         "fabio": "Lange probiert aber kein Erfolg|0",
         "chris": "Kerbe hat gefehlt und kein Erfolg|0",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "title": "5. Floß bauen",
+      "title": "Tag 5. Floß bauen",
       "challengers": {
         "fabio": "|",
         "fritz": "|",
