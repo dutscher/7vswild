@@ -5,7 +5,7 @@
   "scripts": {
     "npm:install": "npm install",
     "--- dev": "this is a divider",
-    "dev": "npm run build:html -- --dev && rollup -c -w",
+    "dev": "npm run build:html -- -- --dev && rollup -c -w",
     "start-by-rollup": "sirv public --no-clear",
     "validate": "svelte-check",
     "--- deploy": "this is a divider",

@@ -4,12 +4,12 @@ import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import sveltePreprocess from 'svelte-preprocess';
-import assetsPreprocessor from 'svelte-assets-preprocessor'
+//import assetsPreprocessor from 'svelte-assets-preprocessor'
 import typescript from '@rollup/plugin-typescript';
 import css from 'rollup-plugin-css-only';
 import json from '@rollup/plugin-json';
 import url from '@rollup/plugin-url'
-import { svelteSVG } from 'rollup-plugin-svelte-svg';
+//import { svelteSVG } from 'rollup-plugin-svelte-svg';
 import replace from 'rollup-plugin-replace';
 
 const production = !process.env.ROLLUP_WATCH;
@@ -66,10 +66,10 @@ export default {
             // generate a named export for every property of the JSON object
             namedExports: true // Default: true
         }),
-        svelteSVG(),
+        //svelteSVG(),
         svelte({
             preprocess: [
-                assetsPreprocessor(),
+                //assetsPreprocessor(),
                 sveltePreprocess({ sourceMap: !production }),
             ],
             compilerOptions: {

@@ -1,10 +1,9 @@
 <script lang="ts">
     import Welcome from "./comps/Welcome.svelte";
-    import { storedData } from './stores';
-
-    let data;
-
-    storedData.subscribe(store => data = store);
+    import Results from "./comps/Results.svelte";
+    import Challenges from "./comps/Challenges.svelte";
+    import Videos from "./comps/Videos.svelte";
+    import Reactions from "./comps/Reactions.svelte";
 </script>
 
 <svelte:head>
@@ -13,6 +12,12 @@
 
 <main>
     <Welcome/>
+    <Results/>
+    <Challenges/>
+    <Videos/>
+    <Reactions/>
+
+    <img src="./images/logo.png" alt="7 Vs Wild Logo" />
 </main>
 
 <style lang="scss">
@@ -22,28 +27,18 @@
     font-family: $font-family;
     font-size: $base-font-size;
     overflow-y: scroll;
+    background: url('../images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: $color-white;
+    text-shadow: 1px 1px $color-black;
+    padding: 0;
+    margin: 0;
   }
 
   :global(h1, h2, h3) {
     margin: $space-lg 0;
-  }
-
-  :global(h1:hover, h2:hover, h3:hover) {
-    background: $color-neutral-25;
-  }
-
-  :global(h2 b, h3 b, h4 b, p b) {
-    color: $color-primary
-  }
-
-  :global(h1.with-toggle, h2.with-toggle) {
-    cursor: pointer;
-    user-select: none;
-  }
-
-  :global(.with-toggle + *) {
-    padding-left: $space-xl * 2.5;
-    padding-bottom: $space-xl * 2.5;
+    color: $color-primary-lighter;
   }
 
   :global(.flex) {
@@ -67,37 +62,25 @@
     width: 100%;
   }
 
-  :global(.flex h4) {
-    position: relative;
-    margin: 0 $space-sm 0 0;
-    padding: 0 $space-md 0 0;
-    line-height: 1;
-    width: 60px;
-    align-self: center;
-    text-align: right;
-  }
-
-  :global(.filter-headline) {
-    font-size: ms(1);
-  }
-
-  :global(.flex.bl) {
-    position: relative;
-  }
-
-  :global(.flex.bl::after) {
-    position: absolute;
-    content: '';
-    left: -$space-sm;
-    top: $space-sm;
-    bottom: $space-sm;
-    border-left: solid 1px $color-primary;
-  }
-
   main {
     @media (min-width: 1024px) {
       width: 65vw;
     }
-    padding-bottom: 300px;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+      margin: 0 auto;
+      display: block;
+      margin-top: $space-xl * 2;
+
+      @media (min-width: 1024px) {
+        width: auto;
+      }
+    }
+  }
+
+  :global(main > div, main > h1, main > h2, main > h3) {
+    padding: 0 $space-md;
   }
 </style>
