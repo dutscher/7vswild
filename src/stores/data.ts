@@ -16,9 +16,11 @@ Object.entries(preparedStore.status).map(challenger => {
     const tmp = ('' + challenger[1]).split('=');
     const challengePoints = tmp[0].split('|');
     const endResult = tmp[1]
+    const isOut = challenger[0].includes('*');
     preparedStore.status[challenger[0]] = {
         challengePoints,
         endResult,
+        isOut,
     }
 });
 

@@ -13,8 +13,8 @@
 </h2>
 <div class="results flex flex--wrap">
     {#each Object.entries(data.status) as [challenger, status]}
-        <div class="item">
-            <img src="./images/challengers/{challenger}.png" alt="{challenger}"/>
+        <div class="item{status.isOut ? ' transparent' : ''}">
+            <img src="./images/challengers/{challenger.replace('*', '')}.png" alt="{challenger.replace('*', '')}"/>
             <strong>{status.endResult}</strong> = {status.challengePoints.join(' + ')}
         </div>
     {/each}
@@ -31,6 +31,11 @@
       img {
         width: 150px;
         vertical-align: middle;
+      }
+
+      &.transparent img {
+        opacity: 0.5;
+        filter: grayscale(1);
       }
     }
   }

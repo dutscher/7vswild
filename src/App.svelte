@@ -4,6 +4,7 @@
     import Challenges from "./comps/Challenges.svelte";
     import Videos from "./comps/Videos.svelte";
     import Reactions from "./comps/Reactions.svelte";
+    import Github from "./comps/Github.svelte";
 </script>
 
 <svelte:head>
@@ -11,6 +12,7 @@
 </svelte:head>
 
 <main>
+    <Github/>
     <Welcome/>
     <Results/>
     <Challenges/>
