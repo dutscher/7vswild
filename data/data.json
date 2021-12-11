@@ -1,10 +1,10 @@
 {
   "status": {
-    "fabio": "6|6|13|0=25",
-    "fritz": "3|7|13|0=23",
+    "fritz": "3|7|13|0|7=30",
+    "fabio": "6|6|13|0|0=25",
     "bommel*": "5|4|2=11",
-    "mattin": "4|3|0|0=7",
-    "chris": "2|5|0|0=7",
+    "mattin": "4|3|0|0|0=7",
+    "chris": "2|5|0|0|0=7",
     "dave*": "7=7",
     "niklas*": "1=1"
   },
@@ -48,7 +48,8 @@
     {
       "title": "Floß bauen | Folge 10",
       "id": "NWC8gFrNb_o"
-    }
+    },
+    {"title":"Gebrochenes Siegel","id":"0oP2LMxbF1U"}
   ],
   "challenges": [
     {
@@ -95,10 +96,10 @@
     {
       "title": "Tag 5. Floß bauen",
       "challengers": {
-        "fabio": "|",
-        "fritz": "|",
-        "chris": "|",
-        "mattin": "|"
+        "fabio": "Flossfichtenwurzel,kein Auftrieb|0",
+        "fritz": "Flosslendenschurz|7",
+        "chris": "Klemmfloss,kein Auftrieb|0",
+        "mattin": "Nofloss|0"
       }
     }
   ],
