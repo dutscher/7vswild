@@ -40,7 +40,7 @@
 
   :global(h1, h2, h3) {
     margin: $space-lg 0;
-    color: $color-primary-lighter;
+    color: $color-primary-light;
   }
 
   :global(.flex) {

@@ -15,7 +15,7 @@
     {#each Object.entries(data.status) as [challenger, status]}
         <div class="item{status.isOut ? ' transparent' : ''}">
             <img src="./images/challengers/{challenger.replace('*', '')}.png" alt="{challenger.replace('*', '')}"/>
-            <strong>{status.endResult}</strong> = {status.challengePoints.join(' + ')}
+            <strong>{status.endResult}</strong>{#if status.challengePoints.length > 1}&nbsp;= {status.challengePoints.join(' + ')}{/if}
         </div>
     {/each}
 </div>
@@ -25,12 +25,22 @@
 
   .results {
     gap: $space-xl;
-    padding-left: $space-xl;
+    align-items: center;
+    flex-direction: column;
+
+    @media (min-width: 1024px) {
+      flex-direction: inherit;
+    }
 
     .item {
       img {
         width: 150px;
         vertical-align: middle;
+      }
+
+      strong {
+        color: $color-primary-lighter;
+        font-size: ms(2);
       }
 
       &.transparent img {

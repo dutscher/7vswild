@@ -8,9 +8,14 @@
 
     });
 
-    const showResults = (result) => {
+    const showPoints = (result) => {
         const results = result.split('|');
-        return results[1] + ' | ' + results[0].split(',').join(', ');
+        return results[1];
+    }
+
+    const showDescription = (result) => {
+        const results = result.split('|');
+        return results[0].split(',').join(', ');
     }
 </script>
 
@@ -24,7 +29,7 @@
             <div class="challengers">
                 {#each Object.entries(challenge.challengers) as [challenger, results]}
                     <span>{challenger}:</span>
-                    {showResults(results)}<br />
+                    <strong>{showPoints(results)}</strong> | {showDescription(results)}<br />
                 {/each}
             </div>
         </div>
@@ -36,7 +41,26 @@
 
   .challenges {
     gap: $space-xl;
-    padding-left: $space-xl;
+    align-items: center;
+    flex-direction: column;
+
+    @media (min-width: 1024px) {
+      flex-direction: inherit;
+      align-items: baseline;
+    }
+
+    .item {
+      width: 100%;
+
+      @media (min-width: 1024px) {
+        width: 30%;
+      }
+
+      strong {
+        color: $color-primary-lighter;
+        font-size: ms(1);
+      }
+    }
 
     .challengers {
       span {

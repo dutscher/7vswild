@@ -14,7 +14,7 @@
 <div class="reactions">
     {#each Object.entries(data.reactions) as [youtuber, reactions]}
         <h3>{youtuber}</h3>
-        <div class="flex">
+        <div class="flex flex--wrap">
             {#each Object.entries(reactions).reverse() as [episode, video]}
                 {#if video.url}
                     <div class="item">
@@ -37,6 +37,7 @@
 
     .flex {
       gap: $space-md;
+      padding-left: $space-xl;
     }
 
     h3 {
@@ -48,6 +49,12 @@
     }
 
     .item {
+      width: 23%;
+
+      @media (min-width: 1024px) {
+        width: 10%;
+      }
+
       span {
         font-size: ms(-1);
         display: block;

@@ -12,7 +12,7 @@
     Videos
 </h2>
 <div class="results flex flex--wrap">
-    {#each data.videos.reverse() as video, index}
+    {#each data.videos as video, index}
         <div class="item">
             <span>{video.title}</span>
             <a href="{video.url}" target="_blank">
@@ -27,10 +27,14 @@
 
   .results {
     gap: $space-md;
-    padding-left: $space-xl;
+    align-items: center;
 
     .item {
-      width: 220px;
+      width: 49%;
+
+      @media (min-width: 1024px) {
+        width: 220px;
+      }
 
       span {
         font-size: ms(-1);

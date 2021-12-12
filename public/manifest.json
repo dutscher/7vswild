@@ -1,10 +1,10 @@
 {
  "name": "7 vs. Wild",
- "short_name": "7vswild",
+ "short_name": "7vsWild",
  "start_url": "./",
  "display": "standalone",
  "background_color": "#FFFFFF",
- "theme_color": "#4c75b4",
+ "theme_color": "#246642",
  "description": "Die App zur Serie",
  "prefer_related_applications": false,
  "icons": [
