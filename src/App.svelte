@@ -7,10 +7,6 @@
     import Github from "./comps/Github.svelte";
 </script>
 
-<svelte:head>
-    <title>7 Vs Wild</title>
-</svelte:head>
-
 <main>
     <Github/>
     <Welcome/>
@@ -19,7 +15,7 @@
     <Videos/>
     <Reactions/>
 
-    <a href="https://de.wikipedia.org/wiki/7_vs._Wild" target="_blank">Wikipedia</a>
+    <a class="wiki" href="https://de.wikipedia.org/wiki/7_vs._Wild" target="_blank">Quelle: Wikipedia</a> + Youtube
 
     <img src="./images/logo.png" alt="7 Vs Wild Logo" />
 </main>
@@ -75,6 +71,10 @@
       width: 65vw;
     }
     margin: 0 auto;
+
+    .wiki {
+      color: $color-white;
+    }
 
     img {
       width: 100%;
