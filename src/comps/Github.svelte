@@ -1,5 +1,5 @@
 <a href="https://github.com/dutscher/7VsWild" class="github-corner"
-   aria-label="View source on GitHub">
+   aria-label="View source on GitHub" target="_blank">
     <svg width="80" height="80" viewBox="0 0 250 250"
          style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>

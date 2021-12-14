@@ -19,6 +19,8 @@
     <Videos/>
     <Reactions/>
 
+    <a href="https://de.wikipedia.org/wiki/7_vs._Wild" target="_blank">Wikipedia</a>
+
     <img src="./images/logo.png" alt="7 Vs Wild Logo" />
 </main>
 
