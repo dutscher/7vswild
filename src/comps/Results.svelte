@@ -6,16 +6,31 @@
     storedData.subscribe(store => {
         data = store
     });
+
+    $: resultsSorted = Object.entries(data.status).map((challenger) => {
+        return {
+            name: challenger[0].replace('*', ''),
+            ...challenger[1],
+        }
+    }).sort((a, b) => {
+        if (a.endResult > b.endResult) {
+            return -1;
+        }
+        if (a.endResult < b.endResult) {
+            return 1;
+        }
+        return 0;
+    });
 </script>
 
 <h2>
     Aktueller Punktestand (nach "{data.videos.reverse()[0].title}")
 </h2>
 <div class="results flex flex--wrap">
-    {#each Object.entries(data.status) as [challenger, status]}
-        <div class="item{status.isOut ? ' transparent' : ''}">
-            <img src="./images/challengers/{challenger.replace('*', '')}.png" alt="{challenger.replace('*', '')}"/>
-            <strong>{status.endResult}</strong>{#if status.challengePoints.length > 1}&nbsp;= {status.challengePoints.join(' + ')}{/if}
+    {#each resultsSorted as challenger}
+        <div class="item{challenger.isOut ? ' transparent' : ''}">
+            <img src="./images/challengers/{challenger.name}.png" alt="{challenger.name}"/>
+            <strong>{challenger.endResult}</strong>{#if challenger.challengePoints.length > 1}&nbsp;= {challenger.challengePoints.join(' + ')}{/if}
         </div>
     {/each}
 </div>

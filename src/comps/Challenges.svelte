@@ -5,31 +5,56 @@
 
     storedData.subscribe(store => {
         data = store
-
     });
 
     const showPoints = (result) => {
         const results = result.split('|');
-        return results[1];
+        return parseInt(results[1]);
     }
 
     const showDescription = (result) => {
         const results = result.split('|');
         return results[0].split(',').join(', ');
     }
+
+    $: challengesSorted = data.challenges.reverse().map((challenge) => {
+        const challengers = Object.entries(challenge.challengers).map((challenger) => {
+            return {
+                name: challenger[0],
+                points: showPoints(challenger[1]),
+                desc: showDescription(challenger[1]),
+            }
+        }).sort((a, b) => {
+            if (a.points > b.points) {
+                return -1;
+            }
+            if (a.points < b.points) {
+                return 1;
+            }
+            return 0;
+        });
+
+        return {
+            title: challenge.title,
+            challengers,
+        }
+    });
+
 </script>
 
 <h2>
     Challenges
 </h2>
 <div class="challenges flex flex--wrap">
-    {#each data.challenges.reverse() as challenge, index}
+    {#each challengesSorted as challenge, index}
         <div class="item">
             <h3>{challenge.title}</h3>
-            <div class="challengers">
-                {#each Object.entries(challenge.challengers) as [challenger, results]}
-                    <span>{challenger}:</span>
-                    <strong>{showPoints(results)}</strong> | {showDescription(results)}<br />
+            <div class="challengers flex flex--vertical">
+                {#each challenge.challengers as challenger}
+                    <div class="flex">
+                        <span class="challengers__name">{challenger.name}:&nbsp;</span>
+                        <strong>{challenger.points}</strong>&nbsp;|&nbsp;<span>{challenger.desc}</span>
+                    </div>
                 {/each}
             </div>
         </div>
@@ -63,7 +88,7 @@
     }
 
     .challengers {
-      span {
+      &__name {
         font-weight: bold;
         display: inline-block;
         width: 80px;

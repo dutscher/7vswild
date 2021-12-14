@@ -64,6 +64,10 @@
     width: 100%;
   }
 
+  :global(.flex--vertical) {
+    flex-direction: column;
+  }
+
   main {
     @media (min-width: 1024px) {
       width: 65vw;
