@@ -1,12 +1,12 @@
 {
   "status": {
-    "fritz": "3|7|13|0|7=30",
-    "mattin": "4|3|0|0|0|1=8",
-    "chris": "2|5|0|0|0=7",
-    "fabio*": "6|6|13|0|0=25",
-    "bommel*": "5|4|2=11",
-    "dave*": "7=7",
-    "niklas*": "1=1"
+    "fritz": "3|7|13|0|7",
+    "mattin": "4|3|0|0|0|1",
+    "chris": "2|5|0|0|0",
+    "fabio*": "6|6|13|0|0",
+    "bommel*": "5|4|2",
+    "dave*": "7",
+    "niklas*": "1"
   },
   "videos": [
     {
@@ -112,9 +112,9 @@
     {
       "title": "Tag 6. Alternative Nahrungsquellen",
       "challengers": {
-        "mattin": "|",
-        "fritz": "|",
-        "chris": "|"
+        "mattin": "Holzkäferlarve|1",
+        "fritz": "-|0",
+        "chris": "-|0"
       }
     }
   ],
@@ -147,7 +147,8 @@
       "9": "ErOeDoTdc9k",
       "10": "TtkuSomLQDA",
       "11": "TEFXdOeleug",
-      "12": "",
+      "12": "https://www.youtube.com/watch?v=rtDgYkNH-BM",
+      "statement": "https://www.youtube.com/watch?v=VwGRQZdxRb8",
       "13": "",
       "14": ""
     },
@@ -163,7 +164,7 @@
       "9": "HwoY4JiGwuA",
       "10": "mwqTkfjK10I",
       "11": "RSib_jkcp4Y",
-      "12": "",
+      "12": "https://www.youtube.com/watch?v=fJE-1mpDN1c",
       "13": "",
       "14": ""
     },

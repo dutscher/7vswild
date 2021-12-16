@@ -14,8 +14,8 @@ const preparedStore = dataJSON;
 
 Object.entries(preparedStore.status).map(challenger => {
     const tmp = ('' + challenger[1]).split('=');
-    const challengePoints = tmp[0].split('|');
-    const endResult = parseInt(tmp[1]);
+    const challengePoints = tmp[0].split('|').map((i) => parseInt(i));
+    const endResult = challengePoints.reduce((pv, cv) => pv + cv, 0);
     const isOut = challenger[0].includes('*');
     preparedStore.status[challenger[0]] = {
         challengePoints,
