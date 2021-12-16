@@ -1,10 +1,10 @@
 {
   "status": {
     "fritz": "3|7|13|0|7=30",
-    "fabio": "6|6|13|0|0=25",
-    "bommel*": "5|4|2=11",
     "mattin": "4|3|0|0|0=7",
     "chris": "2|5|0|0|0=7",
+    "fabio*": "6|6|13|0|0=25",
+    "bommel*": "5|4|2=11",
     "dave*": "7=7",
     "niklas*": "1=1"
   },
@@ -53,7 +53,10 @@
       "title": "Gebrochenes Siegel | Folge 11",
       "id": "0oP2LMxbF1U"
     },
-{"title":"Mindset versus Naturgewalt | Folge 12","id":"tBsvffLjdyQ"}
+    {
+      "title": "Mindset gegen Naturgewalt | Folge 12",
+      "id": "tBsvffLjdyQ"
+    }
   ],
   "challenges": [
     {
