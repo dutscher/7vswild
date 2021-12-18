@@ -1,8 +1,8 @@
 {
   "status": {
-    "fritz": "3|7|13|0|7",
+    "fritz": "3|7|13|0|7|7",
     "mattin": "4|3|0|0|0|1",
-    "chris": "2|5|0|0|0",
+    "chris": "2|5|0|0|0|0",
     "fabio*": "6|6|13|0|0",
     "bommel*": "5|4|2",
     "dave*": "7",
@@ -56,6 +56,10 @@
     {
       "title": "Tag 6: Mindset gegen Naturgewalt",
       "id": "tBsvffLjdyQ"
+    },
+    {
+      "title": "Tag 6: Neue Projekte",
+      "id": "x94eqR0Zhp8"
     }
   ],
   "challenges": [
@@ -110,11 +114,11 @@
       }
     },
     {
-      "title": "Tag 6. Alternative Nahrungsquellen",
+      "title": "Tag 6. Insekten Essen",
       "challengers": {
         "mattin": "Holzkäferlarve|1",
-        "fritz": "-|0",
-        "chris": "-|0"
+        "fritz": "Würmer|7",
+        "chris": "NIx auf der Insel gefunden|0"
       }
     }
   ],
