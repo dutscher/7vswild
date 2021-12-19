@@ -88,9 +88,9 @@
     {
       "title": "Tag 3. Gegenabstände abgeben",
       "challengers": {
-        "fabio": "Nur 2 Gegenstände von Prjektbeginn,Gürtel,Handschuhe,Boonie|13",
-        "fritz": "Topf,Paracord,Tarp,Angelset,Schlüpper,Gürtel,Handschuhe,Boonie,Socken|13",
-        "bommel": "Gürtel,Boonie|2",
+        "fabio": "Nur 2 Gegenstände von Projektbeginn, Gürtel, Handschuhe, Boonie|13",
+        "fritz": "Topf, Paracord, Tarp, Angelset, Schlüpper, Gürtel, Handschuhe, Boonie, Socken|13",
+        "bommel": "Gürtel, Boonie|2",
         "chris": "Challange falsch verstanden|0",
         "mattin": "Challange falsch verstanden|0"
       }
@@ -107,10 +107,10 @@
     {
       "title": "Tag 5. Floß bauen",
       "challengers": {
-        "fabio": "Flossfichtenwurzel,kein Auftrieb|0",
-        "fritz": "Flosslendenschurz|7",
-        "chris": "Klemmfloss,kein Auftrieb|0",
-        "mattin": "Nofloss|0"
+        "fabio": "Floss-fichtenwurzel, kein Auftrieb|0",
+        "fritz": "Floss-lendenschurz|7",
+        "chris": "Klemm-floss, kein Auftrieb|0",
+        "mattin": "No-floss|0"
       }
     },
     {
@@ -118,7 +118,7 @@
       "challengers": {
         "mattin": "Holzkäferlarve|1",
         "fritz": "Würmer|7",
-        "chris": "NIx auf der Insel gefunden|0"
+        "chris": "Nix auf der Insel gefunden|0"
       }
     }
   ],
