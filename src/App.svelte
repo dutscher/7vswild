@@ -5,6 +5,7 @@
     import Videos from "./comps/Videos.svelte";
     import Reactions from "./comps/Reactions.svelte";
     import Github from "./comps/Github.svelte";
+    import Snow from "./comps/Snow.svelte";
 </script>
 
 <main>
@@ -18,6 +19,8 @@
     <a class="wiki" href="https://de.wikipedia.org/wiki/7_vs._Wild" target="_blank">Quelle: Wikipedia</a> + Youtube
 
     <img src="./images/logo.png" alt="7 Vs Wild Logo" />
+
+    <Snow />
 </main>
 
 <style lang="scss">
