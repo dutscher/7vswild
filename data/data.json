@@ -1,8 +1,8 @@
 {
   "status": {
-    "fritz": "3|7|13|0|7|7",
-    "mattin": "4|3|0|0|0|1",
-    "chris": "2|5|0|0|0|0",
+    "fritz": "3|7|13|0|7|7|5",
+    "mattin": "4|3|0|0|0|1|6",
+    "chris": "2|5|0|0|0|0|7",
     "fabio*": "6|6|13|0|0",
     "bommel*": "5|4|2",
     "dave*": "7",
@@ -11,55 +11,83 @@
   "videos": [
     {
       "title": "Der Beginn",
-      "id": "GUCU22DismM"
+      "id": "GUCU22DismM",
+      "date": "6. November 2021"
     },
     {
       "title": "Tag 1: Die Aussetzung",
-      "id": "f08GWiVNJEI"
+      "id": "f08GWiVNJEI",
+      "date": "10. November 2021"
     },
     {
       "title": "Tag 1: Die Entscheidungen",
-      "id": "qMPu9BEQauA"
+      "id": "qMPu9BEQauA",
+      "date": "13. November 2021"
     },
     {
       "title": "Tag 2: Bärengebiet",
-      "id": "CKS1f_62kc0"
+      "id": "CKS1f_62kc0",
+      "date": "17. November 2021"
     },
     {
       "title": "Tag 2: Fatale Fackel-Fehler",
-      "id": "f50vxvUDc68"
+      "id": "f50vxvUDc68",
+      "date": "20. November 2021"
     },
     {
       "title": "Tag 3: Gegenstände abgeben",
-      "id": "GOCEBgBfcOo"
+      "id": "GOCEBgBfcOo",
+      "date": "24. November 2021"
     },
     {
       "title": "Tag 3: Folgenschwere Abgabe",
-      "id": "z9Gn0NhvYnY"
+      "id": "z9Gn0NhvYnY",
+      "date": "27. November 2021"
     },
     {
       "title": "Tag 4: Rettung in der Nacht",
-      "id": "HzZfH4UNr6I"
+      "id": "HzZfH4UNr6I",
+      "date": "1. Dezember 2021"
     },
     {
       "title": "Tag 4: Psychischer Verfall",
-      "id": "SdfST1OKklk"
+      "id": "SdfST1OKklk",
+      "date": "4. Dezember 2021"
     },
     {
       "title": "Tag 5: Floß bauen",
-      "id": "NWC8gFrNb_o"
+      "id": "NWC8gFrNb_o",
+      "date": "8. Dezember 2021"
     },
     {
       "title": "Tag 5: Gebrochenes Siegel",
-      "id": "0oP2LMxbF1U"
+      "id": "0oP2LMxbF1U",
+      "date": "11. Dezember 2021"
     },
     {
       "title": "Tag 6: Mindset gegen Naturgewalt",
-      "id": "tBsvffLjdyQ"
+      "id": "tBsvffLjdyQ",
+      "date": "15. Dezember 2021"
     },
     {
       "title": "Tag 6: Neue Projekte",
-      "id": "x94eqR0Zhp8"
+      "id": "x94eqR0Zhp8",
+      "date": "18. Dezember 2021"
+    },
+    {
+      "title": "Tag 7: Die letzte Challenge",
+      "id": "_nMuykkWyN4",
+      "date": "22. Dezember 2021"
+    },
+    {
+      "title": "Tag 7: ?",
+      "id": "",
+      "date": "25. Dezember 2021"
+    },
+    {
+      "title": "Tag 8: ?",
+      "id": "",
+      "date": "29. Dezember 2021"
     }
   ],
   "challenges": [
@@ -119,6 +147,14 @@
         "mattin": "Holzkäferlarve|1",
         "fritz": "Würmer|7",
         "chris": "Nix auf der Insel gefunden|0"
+      }
+    },
+    {
+      "title": "Tag 7. Steine Stapeln",
+      "challengers": {
+        "chris": "190 cm|7",
+        "mattin": "155 cm|6",
+        "fritz": "154 cm|5"
       }
     }
   ],

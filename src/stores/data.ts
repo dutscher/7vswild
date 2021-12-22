@@ -8,7 +8,7 @@ export const storedData = writable([]);
 //  https://www.youtube.com/watch?v=
 //  img.youtube.com/vi/[Video-ID]/0.jpg
 //  img.youtube.com/vi/[Video-ID]/default.jpg
-const youtubeVideoUrl = (ID) => `https://www.youtube.com/watch?v=${ID}`;
+const youtubeVideoUrl = (ID) => !!ID ? `https://www.youtube.com/watch?v=${ID}` : '';
 const youtubeThumbUrl = (ID) => `https://img.youtube.com/vi/${ID}/default.jpg`;
 const preparedStore = dataJSON;
 
@@ -30,6 +30,7 @@ preparedStore.videos = preparedStore.videos.map(video => {
         title: video.title,
         url: youtubeVideoUrl(video.id),
         thumb: youtubeThumbUrl(video.id),
+        date: video.date,
     }
 })
 
