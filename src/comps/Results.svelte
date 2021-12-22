@@ -7,6 +7,8 @@
         data = store
     });
 
+    $: latestVideo = data.videos.reverse().filter(video => !!video.url)[0];
+
     $: resultsSorted = Object.entries(data.status).map((challenger) => {
         return {
             name: challenger[0].replace('*', ''),
@@ -24,7 +26,7 @@
 </script>
 
 <h2>
-    Aktueller Punktestand (nach "{data.videos.reverse()[0].title}")
+    Aktueller Punktestand (nach "{latestVideo.title}")
 </h2>
 <div class="results flex flex--wrap">
     {#each resultsSorted as challenger}
