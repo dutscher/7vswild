@@ -80,8 +80,8 @@
       "date": "22. Dezember 2021"
     },
     {
-      "title": "Tag 7: ?",
-      "id": "",
+      "title": "Niklas' 7 Tage",
+      "id": "WJGacl8G1ug",
       "date": "25. Dezember 2021"
     },
     {
@@ -107,6 +107,7 @@
       "title": "Tag 2. Fackel Challenge",
       "challengers": {
         "fritz": "59:48|7",
+        "niklas": "33:54|-",
         "fabio": "07:18|6",
         "chris": "02:45|5",
         "bommel": "02:22|4",
@@ -120,7 +121,8 @@
         "fritz": "Topf, Paracord, Tarp, Angelset, Schlüpper, Gürtel, Handschuhe, Boonie, Socken|13",
         "bommel": "Gürtel, Boonie|2",
         "chris": "Challange falsch verstanden|0",
-        "mattin": "Challange falsch verstanden|0"
+        "mattin": "Challange falsch verstanden|0",
+        "niklas": "Nix abgegeben|-"
       }
     },
     {
@@ -129,7 +131,8 @@
         "fabio": "Lange probiert aber kein Erfolg|0",
         "chris": "Kerbe hat gefehlt und kein Erfolg|0",
         "mattin": "Probiert aber leider kein Erfolg|0",
-        "fritz": "Kein Material gefunden, kein Feuerbohren|0"
+        "fritz": "Kein Material gefunden, kein Feuerbohren|0",
+        "niklas": "Probiert, aber keine Glut|-"
       }
     },
     {
@@ -138,7 +141,8 @@
         "fabio": "Floss-fichtenwurzel, kein Auftrieb|0",
         "fritz": "Floss-lendenschurz|7",
         "chris": "Klemm-floss, kein Auftrieb|0",
-        "mattin": "No-floss|0"
+        "mattin": "No-floss|0",
+        "niklas": "Zuwenig auftrieb|-"
       }
     },
     {
@@ -146,7 +150,8 @@
       "challengers": {
         "mattin": "Holzkäferlarve|1",
         "fritz": "Würmer|7",
-        "chris": "Nix auf der Insel gefunden|0"
+        "chris": "Nix auf der Insel gefunden|0",
+        "niklas": "Keine gegessen|-"
       }
     },
     {
@@ -235,7 +240,7 @@
       "11": "TEFXdOeleug",
       "12": "rtDgYkNH-BM",
       "statement": "VwGRQZdxRb8",
-      "13": "",
+      "13": "reEwG-SXUp8",
       "14": "",
       "15": ""
     },
