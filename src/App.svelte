@@ -14,9 +14,9 @@
     <center>
         Quellen:
         <a class="link" href="https://de.wikipedia.org/wiki/7_vs._Wild" target="_blank">Wikipedia</a> &
-        <a class="link" href="https://www.youtube.com/playlist?list=PLPyDkYYqNkPa364y3LyawL8jBTd2Ald2G" target="_blank">Youtube</a>
+        <a class="link" href="https://www.youtube.com/playlist?list=PLPyDkYYqNkPa364y3LyawL8jBTd2Ald2G" target="_blank">Youtube PLaylist</a>
         &
-        <a class="link" href="" target="_blank">Instagram</a>
+        <a class="link" href="https://www.instagram.com/7vswild__app/" target="_blank">Instagram</a>
     </center>
 
     <Results/>
@@ -25,7 +25,7 @@
     <Reactions/>
 
     <br/>
-    <h3>Locations</h3>
+    <h2>Locations</h2>
     <img src="./images/sea.png" alt="Challengers Locations"/>
     <br/>
     <center>Quelle: <a class="link" href="https://www.instagram.com/p/CW5JXAxMqX2/" target="_blank">Instagram</a>
