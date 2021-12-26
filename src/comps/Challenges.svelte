@@ -9,7 +9,8 @@
 
     const showPoints = (result) => {
         const results = result.split('|');
-        return parseInt(results[1]);
+        const points = results[1];
+        return points !== '-' ? parseInt(points) : points;
     }
 
     const showDescription = (result) => {
