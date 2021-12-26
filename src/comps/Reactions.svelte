@@ -3,9 +3,11 @@
 
     let data;
 
-    storedData.subscribe(store => {
-        data = store
-    });
+    storedData.subscribe(store => data = store);
+
+    const getTitle = (episodeTitle: string) => {
+        return !isNaN(parseFloat(episodeTitle)) ? `Folge ${episodeTitle}` : episodeTitle;
+    }
 </script>
 
 <h2>
@@ -18,7 +20,7 @@
             {#each Object.entries(reactions).reverse() as [episode, video]}
                 {#if video.url}
                     <div class="item">
-                        <span>Folge {episode}</span>
+                        <span>{getTitle(episode)}</span>
                         <a href="{video.url}" target="_blank">
                             <img src="{video.thumb}" alt="{video.title}"/>
                         </a>
@@ -36,7 +38,7 @@
     padding-left: $space-xl;
 
     .flex {
-      gap: $space-md;
+      gap: $space-xs;
       padding-left: $space-xl;
     }
 
@@ -59,6 +61,7 @@
         font-size: ms(-1);
         display: block;
         font-weight: bold;
+        white-space: nowrap;
       }
 
       img {

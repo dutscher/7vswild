@@ -29,7 +29,7 @@
   @import '../scss/variables';
 
   .results {
-    gap: $space-md;
+    gap: $space-xs;
     align-items: center;
 
     .item {

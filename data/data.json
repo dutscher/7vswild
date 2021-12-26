@@ -94,30 +94,30 @@
     {
       "title": "Tag 1. an Land schwimmen",
       "challengers": {
-        "dave": "03:07:31|7",
-        "fabio": "03:47:59|6",
-        "bommel": "04:17:49|5",
-        "mattin": "04:55:06|4",
-        "fritz": "05:01:09|3",
-        "chris": "05:02:45|2",
-        "niklas": "05:24:30|1"
+        "dave": "03:07:31 min|7",
+        "fabio": "03:47:59 min|6",
+        "bommel": "04:17:49 min|5",
+        "mattin": "04:55:06 min|4",
+        "fritz": "05:01:09 min|3",
+        "chris": "05:02:45 min|2",
+        "niklas": "05:24:30 min|1"
       }
     },
     {
       "title": "Tag 2. Fackel Challenge",
       "challengers": {
-        "fritz": "59:48|7",
-        "niklas": "33:54|-",
-        "fabio": "07:18|6",
-        "chris": "02:45|5",
-        "bommel": "02:22|4",
-        "mattin": "01:42|3"
+        "fritz": "59:48 min|7",
+        "niklas": "33:54 min|-",
+        "fabio": "07:18 min|6",
+        "chris": "02:45 min|5",
+        "bommel": "02:22 min|4",
+        "mattin": "01:42 min|3"
       }
     },
     {
       "title": "Tag 3. Gegenabstände abgeben",
       "challengers": {
-        "fabio": "Nur 2 Gegenstände von Projektbeginn, Gürtel, Handschuhe, Boonie|13",
+        "fabio": "2 Gegenstände von Projektbeginn, Gürtel, Handschuhe, Boonie|13",
         "fritz": "Topf, Paracord, Tarp, Angelset, Schlüpper, Gürtel, Handschuhe, Boonie, Socken|13",
         "bommel": "Gürtel, Boonie|2",
         "chris": "Challange falsch verstanden|0",
@@ -142,28 +142,50 @@
         "fritz": "Floss-lendenschurz|7",
         "chris": "Klemm-floss, kein Auftrieb|0",
         "mattin": "No-floss|0",
-        "niklas": "Zuwenig auftrieb|-"
+        "niklas": "Zuwenig Auftrieb|-"
       }
     },
     {
       "title": "Tag 6. Insekten Essen",
       "challengers": {
-        "mattin": "Holzkäferlarve|1",
         "fritz": "Würmer|7",
-        "chris": "Nix auf der Insel gefunden|0",
-        "niklas": "Keine gegessen|-"
+        "niklas": "7 Insekten gefilmt, aber es ging um nix|-",
+        "mattin": "Holzkäferlarve|1",
+        "chris": "Nix auf der Insel gefunden|0"
       }
     },
     {
       "title": "Tag 7. Turm bauen",
       "challengers": {
         "chris": "190 cm|7",
+        "niklas": "165 cm (Angabe von Niklas direkt)|-",
         "mattin": "155 cm|6",
         "fritz": "154 cm|5"
       }
     }
   ],
   "reactions": {
+    "Der Garten Kanal": {
+      "Pilz Bestimmung": "Igr_I7mhFwc",
+      "Niklas Pilze": "zgbzjVPBvmY"
+    },
+    "chris": {
+      "1": "7M5AYDC2zjk",
+      "2": "UmAj6pUXEa4",
+      "3": "nNSUDyqkJBg",
+      "4": "Lq3XR-mrxds",
+      "5": "ni3Z6pFJhi4",
+      "6": "TeAFqckQrXM",
+      "7": "HcQtBeYeUQU",
+      "8": "spGyzLJJ-G8",
+      "9": "HwoY4JiGwuA",
+      "10": "mwqTkfjK10I",
+      "11": "RSib_jkcp4Y",
+      "12": "fJE-1mpDN1c",
+      "13": "mARrtxGmxT0",
+      "14": "zWbekFLD7NI",
+      "15": ""
+    },
     "fritz": {
       "1": "VgQVALM9zP8",
       "2": "ax3OYvJ20GE",
@@ -223,26 +245,6 @@
       "10": "1bkNvQhT4xc",
       "12": "kUeNx5v51-4",
       "13": "G3RiA5mwwSo"
-    },
-    "chris": {
-      "1": "7M5AYDC2zjk",
-      "2": "UmAj6pUXEa4",
-      "3": "nNSUDyqkJBg",
-      "4": "Lq3XR-mrxds",
-      "5": "ni3Z6pFJhi4",
-      "6": "TeAFqckQrXM",
-      "7": "HcQtBeYeUQU",
-      "8": "spGyzLJJ-G8",
-      "9": "HwoY4JiGwuA",
-      "10": "mwqTkfjK10I",
-      "11": "RSib_jkcp4Y",
-      "12": "fJE-1mpDN1c",
-      "13": "mARrtxGmxT0",
-      "14": "",
-      "15": ""
-    },
-    "DerGartenKanal": {
-      "Pilz Bestimmung": "Igr_I7mhFwc"
     },
     "dave": {
       "1": "i1L68_-v1yM",

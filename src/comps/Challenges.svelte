@@ -52,9 +52,10 @@
             <h3>{challenge.title}</h3>
             <div class="challengers flex flex--vertical">
                 {#each challenge.challengers as challenger}
-                    <div class="flex">
+                    <div class="challengers__challenger flex">
                         <span class="challengers__name">{challenger.name}:&nbsp;</span>
-                        <strong>{challenger.points}</strong>&nbsp;|&nbsp;<span>{challenger.desc}</span>
+                        <strong class="challengers__points">{challenger.points}</strong>
+                        <span>{challenger.desc}</span>
                     </div>
                 {/each}
             </div>
@@ -66,7 +67,7 @@
   @import '../scss/variables';
 
   .challenges {
-    gap: $space-xl;
+    gap: $space-xs;
     align-items: center;
     flex-direction: column;
 
@@ -81,23 +82,33 @@
       @media (min-width: 1024px) {
         width: 30%;
       }
-
-      strong {
-        color: $color-primary-lighter;
-        font-size: ms(1);
-      }
     }
 
     .challengers {
+      &__challenger {
+        gap: 0 5px;
+      }
+
       &__name {
         font-weight: bold;
         display: inline-block;
         width: 80px;
+        flex-shrink: 0;
         text-align: right;
 
         &:first-letter {
           text-transform: capitalize;
         }
+      }
+
+      &__points {
+        color: $color-primary-lighter;
+        font-size: ms(1);
+        display: inline-block;
+        width: 20px;
+        text-align: center;
+        flex-shrink: 0;
+        line-height: 18px;
       }
     }
   }

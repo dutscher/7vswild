@@ -10,18 +10,32 @@
 <main>
     <Github/>
     <Welcome/>
+
+    <center>
+        Quellen:
+        <a class="link" href="https://de.wikipedia.org/wiki/7_vs._Wild" target="_blank">Wikipedia</a> &
+        <a class="link" href="https://www.youtube.com/playlist?list=PLPyDkYYqNkPa364y3LyawL8jBTd2Ald2G" target="_blank">Youtube</a>
+        &
+        <a class="link" href="" target="_blank">Instagram</a>
+    </center>
+
     <Results/>
     <Challenges/>
     <Videos/>
     <Reactions/>
 
-    <br />
-    <br />
-    <center>
-        <a class="wiki" href="https://de.wikipedia.org/wiki/7_vs._Wild" target="_blank">Quelle: Wikipedia</a> & Youtube
+    <br/>
+    <h3>Locations</h3>
+    <img src="./images/sea.png" alt="Challengers Locations"/>
+    <br/>
+    <center>Quelle: <a class="link" href="https://www.instagram.com/p/CW5JXAxMqX2/" target="_blank">Instagram</a>
     </center>
-
-    <img src="./images/logo.png" alt="7 Vs Wild Logo" />
+    <br/>
+    <img src="./images/logo.png" alt="7 vs. Wild Logo"/>
+    <br/>
+    <center>2021</center>
+    <br/>
+    <br/>
 </main>
 
 <style lang="scss">
@@ -43,6 +57,7 @@
   :global(h1, h2, h3) {
     margin: $space-lg 0;
     color: $color-primary-light;
+    margin-top: $space-xl;
   }
 
   :global(.flex) {
@@ -76,7 +91,7 @@
     }
     margin: 0 auto;
 
-    .wiki {
+    .link {
       color: $color-white;
     }
 
