@@ -14,7 +14,7 @@
     <center>
         Quellen:
         <a class="link" href="https://de.wikipedia.org/wiki/7_vs._Wild" target="_blank">Wikipedia</a> &
-        <a class="link" href="https://www.youtube.com/playlist?list=PLPyDkYYqNkPa364y3LyawL8jBTd2Ald2G" target="_blank">Youtube PLaylist</a>
+        <a class="link" href="https://www.youtube.com/playlist?list=PLPyDkYYqNkPa364y3LyawL8jBTd2Ald2G" target="_blank">Youtube Playlist</a>
         &
         <a class="link" href="https://www.instagram.com/7vswild__app/" target="_blank">Instagram</a>
     </center>
