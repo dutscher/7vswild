@@ -1,12 +1,12 @@
 {
   "status": {
-    "fritz": "3|7|13|0|7|7|5",
+    "fritz!": "3|7|13|0|7|7|5",
     "mattin": "4|3|0|0|0|1|6",
     "chris": "2|5|0|0|0|0|7",
-    "fabio*": "6|6|13|0|0",
-    "bommel*": "5|4|2",
-    "dave*": "7",
-    "niklas*": "1"
+    "fabio*6": "6|6|13|0|0",
+    "bommel*3": "5|4|2",
+    "dave*1": "7",
+    "niklas*1": "1"
   },
   "videos": [
     {
@@ -165,6 +165,23 @@
     }
   ],
   "reactions": {
+    "fabio": {
+      "1": "O9LG6JOAHWU",
+      "2": "q9P58BHp5Pc",
+      "3": "fI8Uux5xUJo",
+      "4": "LxDtkhM_BAk",
+      "5": "MUxVSVdPsHg",
+      "6": "TEA-tD-_LZY",
+      "7": "B7UMDcHPDXE",
+      "8": "6C5ZMjrqNrk",
+      "9": "ErOeDoTdc9k",
+      "10": "TtkuSomLQDA",
+      "11": "TEFXdOeleug",
+      "12": "rtDgYkNH-BM",
+      "statement": "VwGRQZdxRb8",
+      "13": "reEwG-SXUp8",
+      "14": "KUSGWfaknRI"
+    },
     "mattin": {
       "2": "UmAj6pUXEa4",
       "5": "hFDbWdSFlzw",
@@ -189,8 +206,7 @@
       "12": "WsAs23LlEBo",
       "13": "DXv3IhaZFYk",
       "14": "ha_veXTCJkU",
-      "15": "p5SbWxEWypg",
-      "16": ""
+      "15": "p5SbWxEWypg"
     },
     "Der Garten Kanal": {
       "Pilz Bestimmung": "Igr_I7mhFwc",
@@ -211,27 +227,7 @@
       "11": "RSib_jkcp4Y",
       "12": "fJE-1mpDN1c",
       "13": "mARrtxGmxT0",
-      "14": "zWbekFLD7NI",
-      "15": ""
-    },
-    "fabio": {
-      "1": "O9LG6JOAHWU",
-      "2": "q9P58BHp5Pc",
-      "3": "fI8Uux5xUJo",
-      "4": "LxDtkhM_BAk",
-      "5": "MUxVSVdPsHg",
-      "6": "TEA-tD-_LZY",
-      "7": "B7UMDcHPDXE",
-      "8": "6C5ZMjrqNrk",
-      "9": "ErOeDoTdc9k",
-      "10": "TtkuSomLQDA",
-      "11": "TEFXdOeleug",
-      "12": "rtDgYkNH-BM",
-      "statement": "VwGRQZdxRb8",
-      "13": "reEwG-SXUp8",
-      "14": "",
-      "15": "",
-      "16": ""
+      "14": "zWbekFLD7NI"
     },
     "Robert Marc Lehmann": {
       "1": "HjmVoAyodW4",
@@ -247,9 +243,7 @@
       "11": "zRnofx1qZb8",
       "12": "_kEvtLkU21M",
       "13": "MZs93LA0aag",
-      "14": "XfraTlns354",
-      "15": "",
-      "16": ""
+      "14": "XfraTlns354"
     },
     "dave": {
       "1": "i1L68_-v1yM",

@@ -3,36 +3,36 @@
 
     let data;
 
-    storedData.subscribe(store => {
-        data = store
-    });
+    storedData.subscribe(store => data = store);
 
     $: latestVideo = data.videos.reverse().filter(video => !!video.url)[0];
 
-    $: resultsSorted = Object.entries(data.status).map((challenger) => {
-        return {
-            name: challenger[0].replace('*', ''),
-            ...challenger[1],
-        }
-    }).sort((a, b) => {
-        if (a.endResult > b.endResult) {
-            return -1;
-        }
-        if (a.endResult < b.endResult) {
-            return 1;
-        }
-        return 0;
-    });
+    $: resultsSorted = Object.entries(data.status)
+        .map(challanger => challanger[1])
+        .sort((a, b) => {
+            if (a.endResult > b.endResult) {
+                return -1;
+            }
+            if (a.endResult < b.endResult) {
+                return 1;
+            }
+            return 0;
+        })
+        .sort((a, b) => {
+            return (a.isOut === b.isOut) ? 0 : a.isOut ? 1 : -1;
+        })
 </script>
 
 <h2>
-    Aktueller Punktestand (nach "{latestVideo.title}")
+    Endergebnisse <!-- (nach "{latestVideo.title}")-->
 </h2>
 <div class="results flex flex--wrap">
-    {#each resultsSorted as challenger}
-        <div class="item{challenger.isOut ? ' transparent' : ''}">
-            <img src="./images/challengers/{challenger.name}.png" alt="{challenger.name}"/>
-            <strong>{challenger.endResult}</strong>{#if challenger.challengePoints.length > 1}&nbsp;= {challenger.challengePoints.join(' + ')}{/if}
+    {#each resultsSorted as result}
+        <div class="item{result.isOut ? ' transparent' : ''}" exit-day="{result.exitDay > -1 ? result.exitDay : ''}">
+            <img src="./images/challengers/{result.name}{result.isWinner ? '.winner' : ''}.png"
+                 alt="{result.name}"/>
+            <strong>{result.endResult}</strong>
+            <!--{#if challenger.challengePoints.length > 1}&nbsp;= {challenger.challengePoints.join(' + ')}{/if}-->
         </div>
     {/each}
 </div>
