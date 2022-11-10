@@ -1,0 +1,68 @@
+@import './variables';
+
+body {
+  font-family: $font-family;
+  font-size: $base-font-size;
+  overflow-y: scroll;
+  color: $color-white;
+  text-shadow: 1px 1px $color-black;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin: $space-lg 0;
+  color: $color-primary-light;
+  margin-top: $space-xl;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--wrap {
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.flex--inline {
+  display: inline-flex;
+}
+
+.flex--vertical-center {
+  align-items: center;
+}
+
+.flex--block {
+  width: 100%;
+}
+
+.flex--vertical {
+  flex-direction: column;
+}
+
+main {
+  @media (min-width: 1024px) {
+    width: 65vw;
+  }
+  margin: 0 auto;
+
+  .link {
+    color: $color-white;
+  }
+
+  img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-top: $space-xl * 2;
+
+    @media (min-width: 1024px) {
+      width: auto;
+    }
+  }
+}
+
+main > div, main > h1, main > h2, main > h3 {
+  padding: 0 $space-md;
+}

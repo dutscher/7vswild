@@ -11,6 +11,7 @@ import json from '@rollup/plugin-json';
 import url from '@rollup/plugin-url'
 //import { svelteSVG } from 'rollup-plugin-svelte-svg';
 import replace from 'rollup-plugin-replace';
+import scss from 'rollup-plugin-scss';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -89,6 +90,7 @@ export default {
         }),
         // we'll extract any component CSS out into
         // a separate file - better for performance
+        scss(),
         css({ output: 'bundle.css' }),
         // If you have external dependencies installed from
         // npm, you'll most likely need these plugins. In

@@ -1,14 +1,7 @@
-<script lang="ts">
-</script>
-
-<img src="./images/header.jpg" alt="7 Vs Wild"/>
+<slot name="header" />
 <div class="welcome">
     <div class="welcome__content">
-        <p>
-            Dies ist eine von der Community gebaute Übersichtsseite.<br/>
-            Hier seht ihr die Challenge Ergebnisse und zu allen Videos die Reactions der Kandidaten.<br/>
-            <b>Viel Spaß damit und Grüße gehen raus an Fritz für das geile Projekt</b>.
-        </p>
+        <slot />
     </div>
 </div>
 
@@ -19,11 +12,13 @@
     color: $color-primary-light;
   }
 
-  img {
+  :global([slot='header']) {
     width: 100%;
+    border-radius: 20%;
   }
 
   .welcome {
     padding-left: $space-xl;
+    text-align: center;
   }
 </style>

@@ -1,10 +1,11 @@
 <script lang="ts">
     import { storedData } from '../stores';
 
+    export let staffelKey;
     let data;
 
     storedData.subscribe(store => {
-        data = store
+        data = store[staffelKey]
     });
 
     const showPoints = (result) => {
@@ -18,7 +19,7 @@
         return results[0].split(',').join(', ');
     }
 
-    $: challengesSorted = data.challenges.reverse().map((challenge) => {
+    $: challengesSorted = 'challenges' in data && data.challenges.reverse().map((challenge) => {
         const challengers = Object.entries(challenge.challengers).map((challenger) => {
             return {
                 name: challenger[0],
@@ -43,6 +44,7 @@
 
 </script>
 
+{#if challengesSorted}
 <h2>
     Challenges
 </h2>
@@ -54,7 +56,7 @@
                 {#each challenge.challengers as challenger}
                     <div class="challengers__challenger flex">
                         <span class="challengers__name">{challenger.name}:&nbsp;</span>
-                        <strong class="challengers__points">{challenger.points}</strong>
+                        {#if challenger.points}<strong class="challengers__points">{challenger.points}</strong>{/if}
                         <span>{challenger.desc}</span>
                     </div>
                 {/each}
@@ -62,6 +64,7 @@
         </div>
     {/each}
 </div>
+{/if}
 
 <style lang="scss">
   @import '../scss/variables';

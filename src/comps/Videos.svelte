@@ -1,26 +1,50 @@
 <script lang="ts">
-    import { storedData } from '../stores';
+    import { localStore, storedActiveSelection, storedData } from '../stores';
+
+    export let staffelKey;
 
     let videos;
+    let episodeID;
 
-    storedData.subscribe(store => videos = store.videos);
+    storedData.subscribe(store => {
+        videos = store[staffelKey].videos
+    });
+
+    storedActiveSelection.subscribe(store => {
+        episodeID = store.episodeID;
+    });
+
+    const setEpisdodeID = (event, episodeID) => {
+        event.preventDefault();
+
+        console.log({episodeID})
+
+        storedActiveSelection.update(store => {
+            store.episodeID = episodeID;
+            store.reason = 'reaction-show';
+            return store;
+        });
+
+        localStore.set('latestData', JSON.stringify({staffelKey, episodeID: episodeID}));
+    }
 </script>
 
 <h2>
     Videos
 </h2>
 <div class="results flex flex--wrap">
-    {#each videos as video, index}
+    {#each videos as video}
         <div class="item">
-            <span class="title">{video.title}</span>
+            <span class="title">{video.id}) {video.title}</span>
             {#if !!video.url}
-            <a href="{video.url}" target="_blank">
+            <a class="wrapper" href="{video.url}" target="_blank" style="background-image:url({video.thumb})" class:active={episodeID === video.short}>
                 <img src="{video.thumb}" alt="{video.title}"/>
             </a>
             {:else}
                 <img src="{video.thumb}" alt="{video.title}"/>
             {/if}
             <span class="date">{video.date}</span>
+            <button on:click={(e) => setEpisdodeID(e, video.short)}>Show Reactions ({video.reactions})</button>
         </div>
     {/each}
 </div>
@@ -29,15 +53,15 @@
   @import '../scss/variables';
 
   .results {
-    gap: $space-xs;
-    align-items: center;
+    gap: $space-md;
+    align-items: end;
 
     .item {
       width: 49%;
       margin-bottom: $space-lg;
 
       @media (min-width: 1024px) {
-        width: 220px;
+        width: 180px;
       }
 
       .title {
@@ -51,14 +75,33 @@
         }
       }
 
-      img {
-        width: 100%;
+      .wrapper {
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        border-radius: $border-radius-xl;
+
+        &.active {
+          outline: solid 3px $color-white;
+        }
+
+        img {
+          width: 75%;
+          visibility: hidden;
+          margin: 0;
+        }
       }
 
       .date {
         display: block;
         text-align: right;
         font-size: ms(-2);
+      }
+
+      button {
+        cursor: pointer;
+        margin: $space-lg 0;
       }
     }
   }

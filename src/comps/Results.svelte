@@ -1,11 +1,14 @@
 <script lang="ts">
     import { storedData } from '../stores';
 
+    export let staffelKey;
     let data;
 
-    storedData.subscribe(store => data = store);
+    storedData.subscribe(store => {
+        data = store[staffelKey]
+    });
 
-    $: latestVideo = data.videos.reverse().filter(video => !!video.url)[0];
+    $: latestVideo = data.videos && data.videos.reverse().filter(video => !!video.url)[0];
 
     $: resultsSorted = Object.entries(data.status)
         .map(challanger => challanger[1])
@@ -23,15 +26,13 @@
         })
 </script>
 
-<h2>
-    Endergebnisse <!-- (nach "{latestVideo.title}")-->
-</h2>
+<slot />
 <div class="results flex flex--wrap">
     {#each resultsSorted as result}
         <div class="item{result.isOut ? ' transparent' : ''}" exit-day="{result.exitDay > -1 ? result.exitDay : ''}">
-            <img src="./images/challengers/{result.name}{result.isWinner ? '.winner' : ''}.png"
+            <img src="./images/challengers-{staffelKey}/{result.name}{result.isWinner ? '.winner' : ''}.png"
                  alt="{result.name}"/>
-            <strong>{result.endResult}</strong>
+            <strong>{result.endResult || ''}</strong>
             <!--{#if challenger.challengePoints.length > 1}&nbsp;= {challenger.challengePoints.join(' + ')}{/if}-->
         </div>
     {/each}

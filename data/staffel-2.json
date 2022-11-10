@@ -1,0 +1,113 @@
+{
+  "status": {
+    "knossi": "",
+    "nova": "",
+    "otto": "",
+    "fritz": "",
+    "joris": "",
+    "sascha": "",
+    "sabrina": ""
+  },
+  "videos": [
+    {
+      "title": "Behind the Scenes",
+      "id": "c13Wd-LIVNE",
+      "date": "1. November 2022",
+      "short": "bh1"
+    },
+    {
+      "title": "Ankunft: 24h vor Aussetzung",
+      "id": "EMT8VzmMvNY",
+      "date": "3. November 2022",
+      "short": "bh2"
+    },
+    {
+      "title": "Tag 1: Die Aussetzung",
+      "id": "tbapalw2-Eo",
+      "date": "6. November 2022",
+      "short": "1"
+    },
+    {
+      "title": "Die dunkle Geschichte der 7vs.Wild Insel!",
+      "id": "g6NaQkQlXpg",
+      "date": "8. November 2022",
+      "short": "bh3"
+    },
+    {
+      "title": "Tag 1: Tödliches Paradies",
+      "id": "YgAiYfFXnQk",
+      "date": "9. November 2022",
+      "short": "2"
+    }
+  ],
+  "challenges": [
+    {
+      "title": "Tag 1. Mitbringsel",
+      "challengers": {
+        "fritz": "?",
+        "joris": "Puppe",
+        "sabrina": "?",
+        "knossi": "?",
+        "sascha": "?",
+        "nova": "?",
+        "otto": "?"
+      }
+    }
+  ],
+  "reactions": {
+    "fritz": {
+      "bh1": "D8q-Wdoe2EQ",
+      "bh2": "XMNzXxHcmys",
+      "1": "sBEbXWDLg2Y"
+    },
+    "joris": {
+      "bh2": "aRSkFCqVA-Y",
+      "1": "OD2dRQGlAEw",
+      "bh3": "u1iMKFSBaSI"
+    },
+    "sascha": {
+      "bh1": "sTtWWz2Omss",
+      "bh2": "Ye1Gsi6UjVw",
+      "1": "x3imLwkJ2f0",
+      "bh3": "DRIqrLYCpKE"
+    },
+    "mattin": {
+      "1": "VQHmDsLqp9s"
+    },
+    "fabio": {
+      "bh1": "IDV9sDtm2Cg",
+      "bh2": "To40OOjgHLI",
+      "1": "P-llHhxe5Gk",
+      "bh3": "wmDYPVo8QxE"
+    },
+    "chris": {
+      "bh1": "VGEtKYeynEA",
+      "bh2": "BPNRux_zoxc",
+      "1": "KtBanpI-gg0"
+    },
+    "wandermut": {
+      "bh2": "UOQZNA57aWo",
+      "1": "egaNsUvI0UQ",
+      "bh3": "ZFqbw1egbqk"
+    },
+    "dave": {
+      "bh1": "ChP-FQUpEjk",
+      "bh2": "2_B660aWW8A",
+      "1": "YukDRODjZ8A"
+    },
+    "knossi": {
+      "bh1": "whmMKgoMQ5c",
+      "bh2": "tJv_sVQXOQg",
+      "1": "lfGAI6czurI",
+      "bh3": "m8tgokoz9SY"
+    },
+    "nova": {
+      "bh1": "EA7FrfvBRoA",
+      "bh2": "wylQzuijRQM",
+      "1": "ra5Hn9_ogaM"
+    },
+    "otto": {
+      "1": "AX4QHlycU2E"
+    }
+  }
+}

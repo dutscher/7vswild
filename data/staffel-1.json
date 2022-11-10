@@ -12,82 +12,98 @@
     {
       "title": "Der Beginn",
       "id": "GUCU22DismM",
-      "date": "6. November 2021"
+      "date": "6. November 2021",
+      "short": "1"
     },
     {
       "title": "Tag 1: Die Aussetzung",
       "id": "f08GWiVNJEI",
-      "date": "10. November 2021"
+      "date": "10. November 2021",
+      "short": "2"
     },
     {
       "title": "Tag 1: Die Entscheidungen",
       "id": "qMPu9BEQauA",
-      "date": "13. November 2021"
+      "date": "13. November 2021",
+      "short": "3"
     },
     {
       "title": "Tag 2: Bärengebiet",
       "id": "CKS1f_62kc0",
-      "date": "17. November 2021"
+      "date": "17. November 2021",
+      "short": "4"
     },
     {
       "title": "Tag 2: Fatale Fackel-Fehler",
       "id": "f50vxvUDc68",
-      "date": "20. November 2021"
+      "date": "20. November 2021",
+      "short": "5"
     },
     {
       "title": "Tag 3: Gegenstände abgeben",
       "id": "GOCEBgBfcOo",
-      "date": "24. November 2021"
+      "date": "24. November 2021",
+      "short": "6"
     },
     {
       "title": "Tag 3: Folgenschwere Abgabe",
       "id": "z9Gn0NhvYnY",
-      "date": "27. November 2021"
+      "date": "27. November 2021",
+      "short": "7"
     },
     {
       "title": "Tag 4: Rettung in der Nacht",
       "id": "HzZfH4UNr6I",
-      "date": "1. Dezember 2021"
+      "date": "1. Dezember 2021",
+      "short": "8"
     },
     {
       "title": "Tag 4: Psychischer Verfall",
       "id": "SdfST1OKklk",
-      "date": "4. Dezember 2021"
+      "date": "4. Dezember 2021",
+      "short": "9"
     },
     {
       "title": "Tag 5: Floß bauen",
       "id": "NWC8gFrNb_o",
-      "date": "8. Dezember 2021"
+      "date": "8. Dezember 2021",
+      "short": "10"
     },
     {
       "title": "Tag 5: Gebrochenes Siegel",
       "id": "0oP2LMxbF1U",
-      "date": "11. Dezember 2021"
+      "date": "11. Dezember 2021",
+      "short": "11"
     },
     {
       "title": "Tag 6: Mindset gegen Naturgewalt",
       "id": "tBsvffLjdyQ",
-      "date": "15. Dezember 2021"
+      "date": "15. Dezember 2021",
+      "short": "12"
     },
     {
       "title": "Tag 6: Neue Projekte",
       "id": "x94eqR0Zhp8",
-      "date": "18. Dezember 2021"
+      "date": "18. Dezember 2021",
+      "short": "13"
     },
     {
       "title": "Tag 7: Die letzte Challenge",
       "id": "_nMuykkWyN4",
-      "date": "22. Dezember 2021"
+      "date": "22. Dezember 2021",
+      "short": "14"
     },
     {
       "title": "Niklas' 7 Tage",
       "id": "WJGacl8G1ug",
-      "date": "25. Dezember 2021"
+      "date": "25. Dezember 2021",
+      "short": "15"
     },
     {
       "title": "Tag 8: Das Finale",
       "id": "SdT86-LquT4",
-      "date": "29. Dezember 2021"
+      "date": "29. Dezember 2021",
+      "short": "16"
     }
   ],
   "challenges": [
@@ -165,44 +181,6 @@
     }
   ],
   "reactions": {
-    "fabio": {
-      "1": "O9LG6JOAHWU",
-      "2": "q9P58BHp5Pc",
-      "3": "fI8Uux5xUJo",
-      "4": "LxDtkhM_BAk",
-      "5": "MUxVSVdPsHg",
-      "6": "TEA-tD-_LZY",
-      "7": "B7UMDcHPDXE",
-      "8": "6C5ZMjrqNrk",
-      "9": "ErOeDoTdc9k",
-      "10": "TtkuSomLQDA",
-      "11": "TEFXdOeleug",
-      "12": "rtDgYkNH-BM",
-      "12-Statement": "VwGRQZdxRb8",
-      "13": "reEwG-SXUp8",
-      "14": "KUSGWfaknRI",
-      "15": "VX87CNWLCsk",
-      "16": "4G8Ue5s2-l8"
-    },
-    "chris": {
-      "1": "7M5AYDC2zjk",
-      "2": "UmAj6pUXEa4",
-      "3": "nNSUDyqkJBg",
-      "4": "Lq3XR-mrxds",
-      "5": "ni3Z6pFJhi4",
-      "6": "TeAFqckQrXM",
-      "7": "HcQtBeYeUQU",
-      "8": "spGyzLJJ-G8",
-      "9": "HwoY4JiGwuA",
-      "10": "mwqTkfjK10I",
-      "11": "RSib_jkcp4Y",
-      "12": "fJE-1mpDN1c",
-      "13": "mARrtxGmxT0",
-      "14": "zWbekFLD7NI",
-      "15": "SBDbO7P0qOI",
-      "16": "od1Cx3QX7Dk",
-      "Fazit": "SSZG8UA3hTQ"
-    },
     "Robert Marc Lehmann": {
       "1": "HjmVoAyodW4",
       "2": "Xot5_0bAUpQ",
@@ -220,6 +198,23 @@
       "14": "XfraTlns354",
       "15": "EQ4GucfLuKw",
       "16": "rwTfWkonnrE"
+    },
+    "chris": {
+      "1": "7M5AYDC2zjk",
+      "2": "UmAj6pUXEa4",
+      "3": "nNSUDyqkJBg",
+      "4": "Lq3XR-mrxds",
+      "5": "ni3Z6pFJhi4",
+      "6": "TeAFqckQrXM",
+      "7": "HcQtBeYeUQU",
+      "8": "spGyzLJJ-G8",
+      "9": "HwoY4JiGwuA",
+      "10": "mwqTkfjK10I",
+      "11": "RSib_jkcp4Y",
+      "12": "fJE-1mpDN1c",
+      "13": "mARrtxGmxT0",
+      "14": "zWbekFLD7NI",
+      "16": "od1Cx3QX7Dk"
     },
     "fritz": {
       "1": "VgQVALM9zP8",
@@ -249,14 +244,36 @@
       "14": "7f8Vg_0ANRU",
       "16": "H92-pv0EEtg"
     },
+    "fabio": {
+      "1": "O9LG6JOAHWU",
+      "2": "q9P58BHp5Pc",
+      "3": "fI8Uux5xUJo",
+      "4": "LxDtkhM_BAk",
+      "5": "MUxVSVdPsHg",
+      "6": "TEA-tD-_LZY",
+      "7": "B7UMDcHPDXE",
+      "8": "6C5ZMjrqNrk",
+      "9": "ErOeDoTdc9k",
+      "10": "TtkuSomLQDA",
+      "11": "TEFXdOeleug",
+      "12": "rtDgYkNH-BM",
+      "statement": "VwGRQZdxRb8",
+      "13": "reEwG-SXUp8",
+      "14": "KUSGWfaknRI",
+      "15": "VX87CNWLCsk",
+      "16": "4G8Ue5s2-l8"
+    },
     "Der Garten Kanal": {
       "Pilz Bestimmung": "Igr_I7mhFwc",
       "Speisepilze": "QHfO0nkEpms",
-      "Niklas Pilze": "zgbzjVPBvmY"
+      "15": "zgbzjVPBvmY"
     },
     "dave": {
       "1": "i1L68_-v1yM",
       "2": "tC8VK8Gj2bA"
+    },
+    "niklas": {
+      "15": "SBDbO7P0qOI"
     }
   }
 }

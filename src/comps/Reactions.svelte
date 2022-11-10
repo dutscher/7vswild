@@ -1,45 +1,52 @@
 <script lang="ts">
-    import { storedData } from '../stores';
+    import { storedActiveSelection, storedData } from '../stores';
 
+    export let staffelKey;
     let data;
 
-    storedData.subscribe(store => data = store);
+    let episodeID;
 
-    const getTitle = (episodeTitle: string) => {
-        return !isNaN(parseFloat(episodeTitle)) ? `Folge ${episodeTitle}` : episodeTitle;
-    }
+    storedActiveSelection.subscribe(store => {
+        episodeID = store.episodeID
+    });
+
+    storedData.subscribe(store => {
+        data = store[staffelKey]
+    });
 </script>
 
+{#if episodeID}
 <h2>
-    Reactions
+    Reactions von Folge "{data.videos && data.videos.find(video => video.short === episodeID).title}"
 </h2>
 <div class="reactions">
     {#each Object.entries(data.reactions) as [youtuber, reactions]}
-        <h3>{youtuber}</h3>
+        {#if reactions[episodeID] && reactions[episodeID].url}
         <div class="flex flex--wrap">
-            {#each Object.entries(reactions).reverse() as [episode, video]}
-                {#if video.url}
-                    <div class="item">
-                        <span>{getTitle(episode)}</span>
-                        <a href="{video.url}" target="_blank">
-                            <img src="{video.thumb}" alt="{video.title}"/>
-                        </a>
-                    </div>
-                {/if}
-            {/each}
+            <h3>{youtuber}</h3>
+            <div class="item" style="background-image: url({reactions[episodeID].thumb})">
+                <a href="{reactions[episodeID].url}" target="_blank">
+                    <img src="{reactions[episodeID].thumb}" alt="{reactions[episodeID].title}"/>
+                </a>
+            </div>
         </div>
+        {/if}
     {/each}
 </div>
+{/if}
 
 <style lang="scss">
   @import '../scss/variables';
 
   .reactions {
     padding-left: $space-xl;
+    display: flex;
 
     .flex {
       gap: $space-xs;
       padding-left: $space-xl;
+      flex-flow: column;
+      align-self: end;
     }
 
     h3 {
@@ -51,11 +58,9 @@
     }
 
     .item {
-      width: 23%;
-
-      @media (min-width: 1024px) {
-        width: 10%;
-      }
+      background-size: cover;
+      background-position: center;
+      border-radius: $border-radius-lg;
 
       span {
         font-size: ms(-1);
@@ -65,7 +70,9 @@
       }
 
       img {
-        width: 100%;
+        width: 75%;
+        margin: 0;
+        visibility: hidden;
       }
     }
   }
