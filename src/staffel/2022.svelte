@@ -28,10 +28,12 @@
         <a class="link" href="https://www.instagram.com/7vswild/" target="_blank">Instagram</a>
     </center>
 
-    <Results {staffelKey}><h2>Teilnehmer <!-- (nach "{latestVideo.title}")--></h2></Results>
-    <Challenges {staffelKey}/>
     <Videos {staffelKey}/>
     <Reactions {staffelKey}/>
+    <br/>
+    <br/>
+    <Results {staffelKey}><h2>Teilnehmer <!-- (nach "{latestVideo.title}")--></h2></Results>
+    <Challenges {staffelKey}/>
 
     <br/>
     <img src="./images/logo-2.png" alt="7 vs. Wild Logo"/>

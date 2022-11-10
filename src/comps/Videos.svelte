@@ -4,21 +4,17 @@
     export let staffelKey;
 
     let videos;
-    let episodeID;
+    let activeEpisodeID;
 
     storedData.subscribe(store => {
         videos = store[staffelKey].videos
     });
 
     storedActiveSelection.subscribe(store => {
-        episodeID = store.episodeID;
+        activeEpisodeID = store.episodeID;
     });
 
-    const setEpisdodeID = (event, episodeID) => {
-        event.preventDefault();
-
-        console.log({episodeID})
-
+    const setEpisdodeID = (episodeID) => {
         storedActiveSelection.update(store => {
             store.episodeID = episodeID;
             store.reason = 'reaction-show';
@@ -27,6 +23,7 @@
 
         localStore.set('latestData', JSON.stringify({staffelKey, episodeID: episodeID}));
     }
+
 </script>
 
 <h2>
@@ -37,14 +34,22 @@
         <div class="item">
             <span class="title">{video.id}) {video.title}</span>
             {#if !!video.url}
-            <a class="wrapper" href="{video.url}" target="_blank" style="background-image:url({video.thumb})" class:active={episodeID === video.short}>
+            <div class="wrapper"
+                 class:active={activeEpisodeID === video.short}
+                 on:click={() => setEpisdodeID(video.short)}
+                 style="background-image:url({video.thumb})">
                 <img src="{video.thumb}" alt="{video.title}"/>
-            </a>
+            </div>
             {:else}
                 <img src="{video.thumb}" alt="{video.title}"/>
             {/if}
-            <span class="date">{video.date}</span>
-            <button on:click={(e) => setEpisdodeID(e, video.short)}>Show Reactions ({video.reactions})</button>
+            <span class="date">
+                {video.date}<br />
+                {video.reactions} Reactions<br />
+            </span>
+            <a href="{video.url}" target="_blank" title="Öffne das Video auf Youtube" class="youtube">
+                <img src="./images/youtube.svg" alt="open youtube" />
+            </a>
         </div>
     {/each}
 </div>
@@ -57,8 +62,10 @@
     align-items: end;
 
     .item {
+      position: relative;
       width: 49%;
       margin-bottom: $space-lg;
+      cursor: pointer;
 
       @media (min-width: 1024px) {
         width: 180px;
@@ -97,11 +104,17 @@
         display: block;
         text-align: right;
         font-size: ms(-2);
+        margin-top: $spacing-base;
       }
 
-      button {
-        cursor: pointer;
-        margin: $space-lg 0;
+      .youtube {
+        position: absolute;
+        left: $spacing-base;
+        bottom: $spacing-base;
+
+        img {
+          width: 30px;
+        }
       }
     }
   }

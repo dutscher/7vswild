@@ -19,12 +19,12 @@
 <h2>
     Reactions von Folge "{data.videos && data.videos.find(video => video.short === episodeID).title}"
 </h2>
-<div class="reactions">
+<div class="reactions flex flex--wrap">
     {#each Object.entries(data.reactions) as [youtuber, reactions]}
         {#if reactions[episodeID] && reactions[episodeID].url}
-        <div class="flex flex--wrap">
+        <div class="item flex">
             <h3>{youtuber}</h3>
-            <div class="item" style="background-image: url({reactions[episodeID].thumb})">
+            <div class="wrapper" style="background-image: url({reactions[episodeID].thumb})">
                 <a href="{reactions[episodeID].url}" target="_blank">
                     <img src="{reactions[episodeID].thumb}" alt="{reactions[episodeID].title}"/>
                 </a>
@@ -40,24 +40,28 @@
 
   .reactions {
     padding-left: $space-xl;
-    display: flex;
+    gap: $space-xl;
 
     .flex {
       gap: $space-xs;
-      padding-left: $space-xl;
       flex-flow: column;
-      align-self: end;
-    }
-
-    h3 {
-      display: block;
-
-      &:first-letter {
-        text-transform: capitalize;
-      }
+      align-self: start;
     }
 
     .item {
+      width: 100px;
+
+      h3 {
+        display: block;
+        margin: 0;
+
+        &:first-letter {
+          text-transform: capitalize;
+        }
+      }
+    }
+
+    .wrapper {
       background-size: cover;
       background-position: center;
       border-radius: $border-radius-lg;

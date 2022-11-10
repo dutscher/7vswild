@@ -11,10 +11,10 @@ export const storedData = writable([]);
 //  img.youtube.com/vi/[Video-ID]/default.jpg
 const youtubeVideoUrl = (ID) => !!ID ? `https://www.youtube.com/watch?v=${ID}` : '';
 const youtubeThumbUrl = (ID) => `https://img.youtube.com/vi/${ID}/default.jpg`;
-const preparedStores = [{status:0, reactions: []}, JSON1, JSON2];
+const preparedStores = [{status: 0, reactions: [], videos: []}, JSON1, JSON2];
 
 preparedStores.map((store, storeIndex) => {
-    if(store.status === 0){
+    if (store.status === 0) {
         return store;
     }
 
@@ -37,17 +37,17 @@ preparedStores.map((store, storeIndex) => {
     });
 
     // @ts-ignore
-    store.videos = store.videos.map((video,episodeID) => {
+    const videosLength = store.videos.length;
+    store.videos = store.videos.map((video, index) => {
         let reactions = 0;
-        const id = episodeID + 1
         Object.keys(store.reactions).map(challenger => {
-            if(video.short in store.reactions[challenger]){
+            if (video.short in store.reactions[challenger]) {
                 reactions++;
             }
         });
 
         return {
-            id,
+            id: videosLength - index,
             title: video.title,
             url: youtubeVideoUrl(video.id),
             thumb: youtubeThumbUrl(video.id),
@@ -55,7 +55,7 @@ preparedStores.map((store, storeIndex) => {
             short: video.short,
             reactions,
         }
-    })
+    });
 
     Object.keys(store.reactions).map(challenger => {
         Object.entries(store.reactions[challenger]).map(episode => {

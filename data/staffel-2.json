@@ -10,22 +10,10 @@
   },
   "videos": [
     {
-      "title": "Behind the Scenes",
-      "id": "c13Wd-LIVNE",
-      "date": "1. November 2022",
-      "short": "bh1"
-    },
-    {
-      "title": "Ankunft: 24h vor Aussetzung",
-      "id": "EMT8VzmMvNY",
-      "date": "3. November 2022",
-      "short": "bh2"
-    },
-    {
-      "title": "Tag 1: Die Aussetzung",
-      "id": "tbapalw2-Eo",
-      "date": "6. November 2022",
-      "short": "1"
+      "title": "Tag 1: Tödliches Paradies",
+      "id": "YgAiYfFXnQk",
+      "date": "9. November 2022",
+      "short": "2"
     },
     {
       "title": "Die dunkle Geschichte der 7vs.Wild Insel!",
@@ -34,10 +22,22 @@
       "short": "bh3"
     },
     {
-      "title": "Tag 1: Tödliches Paradies",
-      "id": "YgAiYfFXnQk",
-      "date": "9. November 2022",
-      "short": "2"
+      "title": "Tag 1: Die Aussetzung",
+      "id": "tbapalw2-Eo",
+      "date": "6. November 2022",
+      "short": "1"
+    },
+    {
+      "title": "Ankunft: 24h vor Aussetzung",
+      "id": "EMT8VzmMvNY",
+      "date": "3. November 2022",
+      "short": "bh2"
+    },
+    {
+      "title": "Behind the Scenes",
+      "id": "c13Wd-LIVNE",
+      "date": "1. November 2022",
+      "short": "bh1"
     }
   ],
   "challenges": [
@@ -62,14 +62,14 @@
     },
     "joris": {
       "bh2": "aRSkFCqVA-Y",
-      "1": "OD2dRQGlAEw",
-      "bh3": "u1iMKFSBaSI"
+      "bh3": "u1iMKFSBaSI",
+      "1": "OD2dRQGlAEw"
     },
     "sascha": {
       "bh1": "sTtWWz2Omss",
       "bh2": "Ye1Gsi6UjVw",
-      "1": "x3imLwkJ2f0",
-      "bh3": "DRIqrLYCpKE"
+      "bh3": "DRIqrLYCpKE",
+      "1": "x3imLwkJ2f0"
     },
     "mattin": {
       "1": "VQHmDsLqp9s"
@@ -77,8 +77,8 @@
     "fabio": {
       "bh1": "IDV9sDtm2Cg",
       "bh2": "To40OOjgHLI",
-      "1": "P-llHhxe5Gk",
-      "bh3": "wmDYPVo8QxE"
+      "bh3": "wmDYPVo8QxE",
+      "1": "P-llHhxe5Gk"
     },
     "chris": {
       "bh1": "VGEtKYeynEA",
@@ -87,8 +87,8 @@
     },
     "wandermut": {
       "bh2": "UOQZNA57aWo",
-      "1": "egaNsUvI0UQ",
-      "bh3": "ZFqbw1egbqk"
+      "bh3": "ZFqbw1egbqk",
+      "1": "egaNsUvI0UQ"
     },
     "dave": {
       "bh1": "ChP-FQUpEjk",
@@ -98,8 +98,8 @@
     "knossi": {
       "bh1": "whmMKgoMQ5c",
       "bh2": "tJv_sVQXOQg",
-      "1": "lfGAI6czurI",
-      "bh3": "m8tgokoz9SY"
+      "bh3": "m8tgokoz9SY",
+      "1": "lfGAI6czurI"
     },
     "nova": {
       "bh1": "EA7FrfvBRoA",
@@ -108,6 +108,9 @@
     },
     "otto": {
       "1": "AX4QHlycU2E"
+    },
+    "Robert": {
+      "bh1": "tJnLaNiZ4co"
     }
   }
 }

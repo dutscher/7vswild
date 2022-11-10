@@ -8,8 +8,6 @@
         data = store[staffelKey]
     });
 
-    $: latestVideo = data.videos && data.videos.reverse().filter(video => !!video.url)[0];
-
     $: resultsSorted = Object.entries(data.status)
         .map(challanger => challanger[1])
         .sort((a, b) => {
