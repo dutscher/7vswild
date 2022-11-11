@@ -10,36 +10,109 @@
   },
   "videos": [
     {
+      "title": "So überlebt man die 7vs.Wild Insel! (Survival Profi testet)",
+      "id": "R8Mvi5jEq04|24:19",
+      "date": "11. November 2022",
+      "short": "bh4"
+    },
+    {
       "title": "Tag 1: Tödliches Paradies",
-      "id": "YgAiYfFXnQk",
+      "id": "YgAiYfFXnQk|1:30:17",
       "date": "9. November 2022",
       "short": "2"
     },
     {
       "title": "Die dunkle Geschichte der 7vs.Wild Insel!",
-      "id": "g6NaQkQlXpg",
+      "id": "g6NaQkQlXpg|33:06",
       "date": "8. November 2022",
       "short": "bh3"
     },
     {
       "title": "Tag 1: Die Aussetzung",
-      "id": "tbapalw2-Eo",
+      "id": "tbapalw2-Eo|27:09",
       "date": "6. November 2022",
       "short": "1"
     },
     {
       "title": "Ankunft: 24h vor Aussetzung",
-      "id": "EMT8VzmMvNY",
+      "id": "EMT8VzmMvNY|23:47",
       "date": "3. November 2022",
       "short": "bh2"
     },
     {
       "title": "Behind the Scenes",
-      "id": "c13Wd-LIVNE",
+      "id": "c13Wd-LIVNE|10:11",
       "date": "1. November 2022",
       "short": "bh1"
     }
   ],
+  "reactions": {
+    "fritz": {
+      "bh1": "D8q-Wdoe2EQ|18:16",
+      "bh2": "XMNzXxHcmys|51:01",
+      "1": "sBEbXWDLg2Y|1:04:54"
+    },
+    "joris": {
+      "bh2": "aRSkFCqVA-Y|35:25",
+      "bh3": "u1iMKFSBaSI|47:51",
+      "1": "OD2dRQGlAEw|47:20",
+      "2": "WhXva9BPn7E|2:24:03"
+    },
+    "sascha": {
+      "bh1": "sTtWWz2Omss|20:45",
+      "bh2": "Ye1Gsi6UjVw|44:11",
+      "bh3": "DRIqrLYCpKE|47:52",
+      "1": "x3imLwkJ2f0|49:26",
+      "2": "qB-OCQ3-sC4|1:53:57"
+    },
+    "mattin": {
+      "1": "VQHmDsLqp9s|42:53"
+    },
+    "fabio": {
+      "bh1": "IDV9sDtm2Cg|26:38",
+      "bh2": "To40OOjgHLI|36:50",
+      "bh3": "wmDYPVo8QxE|37:05",
+      "1": "P-llHhxe5Gk|38:10"
+    },
+    "chris": {
+      "bh1": "VGEtKYeynEA|17:30",
+      "bh2": "BPNRux_zoxc|33:46",
+      "1": "KtBanpI-gg0|39:58",
+      "2": "onQCySrCP-4|1:55:55"
+    },
+    "wandermut": {
+      "bh2": "UOQZNA57aWo|45:42",
+      "bh3": "ZFqbw1egbqk|41:16",
+      "1": "egaNsUvI0UQ|49:53"
+    },
+    "dave": {
+      "bh1": "ChP-FQUpEjk|11:43",
+      "bh2": "2_B660aWW8A|39:00",
+      "1": "YukDRODjZ8A|43:51"
+    },
+    "knossi": {
+      "bh1": "whmMKgoMQ5c|23:12",
+      "bh2": "tJv_sVQXOQg|58:45",
+      "bh3": "rlAdVfp1hZ4|1:22:16",
+      "1": "lfGAI6czurI|1:19:32",
+      "2": "-oif9AzACK8|2:28:00"
+    },
+    "nova": {
+      "bh1": "EA7FrfvBRoA|12:22",
+      "bh2": "wylQzuijRQM|27:41",
+      "bh3": "MIvhliptYao|37:19",
+      "1": "ra5Hn9_ogaM|40:42",
+      "2": "Q9_bdwP0haE|1:47:03"
+    },
+    "otto": {
+      "1": "AX4QHlycU2E|1:22:57",
+      "2": "RdA8s-5Kl6s|47:55"
+    },
+    "robert": {
+      "bh1": "tJnLaNiZ4co|25:32",
+      "1": "7iIVBr2BLxA|1:03:38"
+    }
+  },
   "challenges": [
     {
       "title": "Tag 1. Mitbringsel",
@@ -53,69 +126,5 @@
         "otto": "?"
       }
     }
-  ],
-  "reactions": {
-    "fritz": {
-      "bh1": "D8q-Wdoe2EQ",
-      "bh2": "XMNzXxHcmys",
-      "1": "sBEbXWDLg2Y"
-    },
-    "joris": {
-      "bh2": "aRSkFCqVA-Y",
-      "bh3": "u1iMKFSBaSI",
-      "1": "OD2dRQGlAEw",
-      "2": "WhXva9BPn7E"
-    },
-    "sascha": {
-      "bh1": "sTtWWz2Omss",
-      "bh2": "Ye1Gsi6UjVw",
-      "bh3": "DRIqrLYCpKE",
-      "1": "x3imLwkJ2f0",
-      "2": "qB-OCQ3-sC4"
-    },
-    "mattin": {
-      "1": "VQHmDsLqp9s"
-    },
-    "fabio": {
-      "bh1": "IDV9sDtm2Cg",
-      "bh2": "To40OOjgHLI",
-      "bh3": "wmDYPVo8QxE",
-      "1": "P-llHhxe5Gk"
-    },
-    "chris": {
-      "bh1": "VGEtKYeynEA",
-      "bh2": "BPNRux_zoxc",
-      "1": "KtBanpI-gg0"
-    },
-    "wandermut": {
-      "bh2": "UOQZNA57aWo",
-      "bh3": "ZFqbw1egbqk",
-      "1": "egaNsUvI0UQ"
-    },
-    "dave": {
-      "bh1": "ChP-FQUpEjk",
-      "bh2": "2_B660aWW8A",
-      "1": "YukDRODjZ8A"
-    },
-    "knossi": {
-      "bh1": "whmMKgoMQ5c",
-      "bh2": "tJv_sVQXOQg",
-      "bh3": "rlAdVfp1hZ4",
-      "1": "lfGAI6czurI"
-    },
-    "nova": {
-      "bh1": "EA7FrfvBRoA",
-      "bh2": "wylQzuijRQM",
-      "bh3": "MIvhliptYao",
-      "1": "ra5Hn9_ogaM"
-    },
-    "otto": {
-      "1": "AX4QHlycU2E",
-      "2": "RdA8s-5Kl6s"
-    },
-    "Robert": {
-      "bh1": "tJnLaNiZ4co",
-      "1": "7iIVBr2BLxA"
-    }
-  }
+  ]
 }

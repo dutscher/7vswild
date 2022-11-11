@@ -46,13 +46,16 @@ preparedStores.map((store, storeIndex) => {
             }
         });
 
+        const [youtubeID, duration] = video.id.split('|');
+
         return {
             id: videosLength - index,
             title: video.title,
-            url: youtubeVideoUrl(video.id),
-            thumb: youtubeThumbUrl(video.id),
+            url: youtubeVideoUrl(youtubeID),
+            thumb: youtubeThumbUrl(youtubeID),
             date: video.date,
             short: video.short,
+            duration,
             reactions,
         }
     });
