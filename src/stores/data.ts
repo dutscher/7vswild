@@ -36,7 +36,6 @@ preparedStores.map((store, storeIndex) => {
         }
     });
 
-    // @ts-ignore
     const videosLength = store.videos.length;
     store.videos = store.videos.map((video, index) => {
         let reactions = 0;
@@ -61,14 +60,18 @@ preparedStores.map((store, storeIndex) => {
     });
 
     Object.keys(store.reactions).map(challenger => {
-        Object.entries(store.reactions[challenger]).map(episode => {
-            if (!!episode[1]) {
-                store.reactions[challenger][episode[0]] = {
-                    url: youtubeVideoUrl(episode[1]),
-                    thumb: youtubeThumbUrl(episode[1]),
-                }
+        // @ts-ignore
+        return Object.entries(store.reactions[challenger]).map(([videoID, youtubeInfos]) => {
+            // @ts-ignore
+            const [youtubeID, duration] = youtubeInfos.split('|');
+            if(!!youtubeID) {
+                store.reactions[challenger][videoID] = {
+                    url: youtubeVideoUrl(youtubeID),
+                    thumb: youtubeThumbUrl(youtubeID),
+                    duration,
+                };
             }
-        })
+        });
     })
 
     preparedStores[storeIndex] = store;

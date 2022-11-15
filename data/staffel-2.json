@@ -10,6 +10,18 @@
   },
   "videos": [
     {
+      "title": "Das Team hinter 7vs.Wild!",
+      "id": "WrmbNxCc7co|20:44",
+      "date": "14. November 2022",
+      "short": "bh5"
+    },
+    {
+      "title": "Tag 1: Nackt durch den Dschungel",
+      "id": "iZ8h9UM8fog|1:09:03",
+      "date": "12. November 2022",
+      "short": "3"
+    },
+    {
       "title": "So überlebt man die 7vs.Wild Insel! (Survival Profi testet)",
       "id": "R8Mvi5jEq04|24:19",
       "date": "11. November 2022",
@@ -55,15 +67,18 @@
     "joris": {
       "bh2": "aRSkFCqVA-Y|35:25",
       "bh3": "u1iMKFSBaSI|47:51",
+      "bh4": "CGn-6U9q6ao|44:51",
       "1": "OD2dRQGlAEw|47:20",
-      "2": "WhXva9BPn7E|2:24:03"
+      "2": "WhXva9BPn7E|2:24:03",
+      "3": "mM-9vDusimw|1:43:39"
     },
     "sascha": {
       "bh1": "sTtWWz2Omss|20:45",
       "bh2": "Ye1Gsi6UjVw|44:11",
       "bh3": "DRIqrLYCpKE|47:52",
       "1": "x3imLwkJ2f0|49:26",
-      "2": "qB-OCQ3-sC4|1:53:57"
+      "2": "qB-OCQ3-sC4|1:53:57",
+      "3": "rAoDj--JjpU|1:26:22"
     },
     "mattin": {
       "1": "VQHmDsLqp9s|42:53"
@@ -78,11 +93,14 @@
       "bh1": "VGEtKYeynEA|17:30",
       "bh2": "BPNRux_zoxc|33:46",
       "1": "KtBanpI-gg0|39:58",
-      "2": "onQCySrCP-4|1:55:55"
+      "2": "onQCySrCP-4|1:55:55",
+      "3": "jwuF6KavCMs|1:33:34"
     },
     "wandermut": {
+      "bh1": "rdHduvTJAc8|11:41",
       "bh2": "UOQZNA57aWo|45:42",
       "bh3": "ZFqbw1egbqk|41:16",
+      "bh4": "4qfRWEfgQ5I|42:49",
       "1": "egaNsUvI0UQ|49:53"
     },
     "dave": {
@@ -106,11 +124,18 @@
     },
     "otto": {
       "1": "AX4QHlycU2E|1:22:57",
-      "2": "RdA8s-5Kl6s|47:55"
+      "2": "RdA8s-5Kl6s|47:55",
+      "3": "l4_8puWQoqo|41:48"
     },
     "robert": {
       "bh1": "tJnLaNiZ4co|25:32",
+      "bh3": "Q8mGxGcIKMU|52:07",
       "1": "7iIVBr2BLxA|1:03:38"
+    },
+    "sabrina": {
+      "1": "BNFJo-O_rng|34:10",
+      "2": "CIZL3M-hx3U|2:03:03",
+      "3": "10cy2ps9PZU|1:40:19"
     }
   },
   "challenges": [
