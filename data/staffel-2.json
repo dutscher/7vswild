@@ -10,6 +10,12 @@
   },
   "videos": [
     {
+      "title": "Tag 1: Die erste Nacht",
+      "id": "7g1j1QzUNmI|1:24:38",
+      "date": "14. November 2022",
+      "short": "4"
+    },
+    {
       "title": "Das Team hinter 7vs.Wild!",
       "id": "WrmbNxCc7co|20:44",
       "date": "14. November 2022",
@@ -126,7 +132,8 @@
       "bh2": "wylQzuijRQM|27:41",
       "bh3": "MIvhliptYao|37:19",
       "1": "ra5Hn9_ogaM|40:42",
-      "2": "Q9_bdwP0haE|1:47:03"
+      "2": "Q9_bdwP0haE|1:47:03",
+      "3": "UgByCI7kykk|1:20:53"
     },
     "otto": {
       "1": "AX4QHlycU2E|1:22:57",
