@@ -10,6 +10,18 @@
   },
   "videos": [
     {
+      "title": "Tag 2: Fritz am Ende",
+      "id": "hwz575b865U|1:18:24",
+      "date": "19. November 2022",
+      "short": "5"
+    },
+    {
+      "title": "Notfall! Einsatz des 7vs.Wild Medical Teams",
+      "id": "j60fj8kkZ50|22:53",
+      "date": "18. November 2022",
+      "short": "bh6"
+    },
+    {
       "title": "Tag 1: Die erste Nacht",
       "id": "7g1j1QzUNmI|1:24:38",
       "date": "14. November 2022",
@@ -87,7 +99,8 @@
       "bh5": "dZXopXTKpw0|33:35",
       "1": "x3imLwkJ2f0|49:26",
       "2": "qB-OCQ3-sC4|1:53:57",
-      "3": "rAoDj--JjpU|1:26:22"
+      "3": "rAoDj--JjpU|1:26:22",
+      "4": "nyAXFN5SSxQ|1:42:41"
     },
     "mattin": {
       "1": "VQHmDsLqp9s|42:53"
@@ -96,14 +109,17 @@
       "bh1": "IDV9sDtm2Cg|26:38",
       "bh2": "To40OOjgHLI|36:50",
       "bh3": "wmDYPVo8QxE|37:05",
-      "1": "P-llHhxe5Gk|38:10"
+      "1": "P-llHhxe5Gk|38:10",
+      "2": "GiMMI2zYIBk|2:24:16",
+      "3": "-eKnje8drhM|1:32:37"
     },
     "chris": {
       "bh1": "VGEtKYeynEA|17:30",
       "bh2": "BPNRux_zoxc|33:46",
       "1": "KtBanpI-gg0|39:58",
       "2": "onQCySrCP-4|1:55:55",
-      "3": "jwuF6KavCMs|1:33:34"
+      "3": "jwuF6KavCMs|1:33:34",
+      "4": "HM8gNyDR3IQ|1:47:49"
     },
     "wandermut": {
       "bh1": "rdHduvTJAc8|11:41",
@@ -123,6 +139,7 @@
       "bh2": "tJv_sVQXOQg|58:45",
       "bh3": "rlAdVfp1hZ4|1:22:16",
       "bh4": "CXwEjIIcMqc|42:45",
+      "bh5": "dAS4LdvN-ZU|41:34",
       "1": "lfGAI6czurI|1:19:32",
       "2": "-oif9AzACK8|2:28:00",
       "3": "6T905vdNB1E|1:56:29"
@@ -133,29 +150,47 @@
       "bh3": "MIvhliptYao|37:19",
       "1": "ra5Hn9_ogaM|40:42",
       "2": "Q9_bdwP0haE|1:47:03",
-      "3": "UgByCI7kykk|1:20:53"
+      "3": "UgByCI7kykk|1:20:53",
+      "4": "L72qoO6L1Vw|1:40:33"
     },
     "otto": {
       "1": "AX4QHlycU2E|1:22:57",
       "2": "RdA8s-5Kl6s|47:55",
-      "3": "l4_8puWQoqo|41:48"
+      "3": "l4_8puWQoqo|41:48",
+      "4": "auOUMROTbWg|57:38"
     },
     "robert": {
       "bh1": "tJnLaNiZ4co|25:32",
       "bh3": "Q8mGxGcIKMU|52:07",
-      "1": "7iIVBr2BLxA|1:03:38"
+      "1": "7iIVBr2BLxA|1:03:38",
+      "2": "I9zABTuKw34|2:10:35",
+      "3": "cbptlYPfvxQ|1:41:23"
     },
     "sabrina": {
       "bh1": "aD_CYOoG6T4|15:38",
       "bh2": "fZXyZEiAJCU|31:46",
       "bh3": "cRyJ4yQcXKw|45:39",
       "bh4": "F5GxPCyi05g|39:11",
+      "bh5": "wdpCKoQ8TIM|36:34",
       "1": "BNFJo-O_rng|34:10",
       "2": "CIZL3M-hx3U|2:03:03",
-      "3": "10cy2ps9PZU|1:40:19"
+      "3": "10cy2ps9PZU|1:40:19",
+      "4": "NeDOZR1tDFM|1:50:26"
     }
   },
   "challenges": [
+    {
+      "title": "Tag 2. Bogen bauen",
+      "challengers": {
+        "fritz": "?",
+        "joris": "5m",
+        "sabrina": "?",
+        "knossi": "20cm",
+        "sascha": "?",
+        "nova": "?",
+        "otto": "4m"
+      }
+    },
     {
       "title": "Tag 1. Mitbringsel",
       "challengers": {
@@ -164,7 +199,7 @@
         "sabrina": "?",
         "knossi": "?",
         "sascha": "?",
-        "nova": "?",
+        "nova": "Helm",
         "otto": "?"
       }
     }
