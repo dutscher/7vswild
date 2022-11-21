@@ -80,7 +80,8 @@
     "fritz": {
       "bh1": "D8q-Wdoe2EQ|18:16",
       "bh2": "XMNzXxHcmys|51:01",
-      "1": "sBEbXWDLg2Y|1:04:54"
+      "1": "sBEbXWDLg2Y|1:04:54",
+      "2": "3dkiHM8dz9g|2:25:51"
     },
     "joris": {
       "bh2": "aRSkFCqVA-Y|35:25",
@@ -89,7 +90,9 @@
       "bh5": "fcpuGyqzNbA|45:35",
       "1": "OD2dRQGlAEw|47:20",
       "2": "WhXva9BPn7E|2:24:03",
-      "3": "mM-9vDusimw|1:43:39"
+      "3": "mM-9vDusimw|1:43:39",
+      "4": "Wtcl2fNzdiw|2:25:21",
+      "5": "RrpjdyXKDUA|1:17:54"
     },
     "sascha": {
       "bh1": "sTtWWz2Omss|20:45",
@@ -100,7 +103,53 @@
       "1": "x3imLwkJ2f0|49:26",
       "2": "qB-OCQ3-sC4|1:53:57",
       "3": "rAoDj--JjpU|1:26:22",
-      "4": "nyAXFN5SSxQ|1:42:41"
+      "4": "nyAXFN5SSxQ|1:42:41",
+      "5": "Gtv0eH-YG6w|1:27:50"
+    },
+    "sabrina": {
+      "bh1": "aD_CYOoG6T4|15:38",
+      "bh2": "fZXyZEiAJCU|31:46",
+      "bh3": "cRyJ4yQcXKw|45:39",
+      "bh4": "F5GxPCyi05g|39:11",
+      "bh5": "wdpCKoQ8TIM|36:34",
+      "1": "BNFJo-O_rng|34:10",
+      "2": "CIZL3M-hx3U|2:03:03",
+      "3": "10cy2ps9PZU|1:40:19",
+      "4": "NeDOZR1tDFM|1:50:26"
+    },
+    "knossi": {
+      "bh1": "whmMKgoMQ5c|23:12",
+      "bh2": "tJv_sVQXOQg|58:45",
+      "bh3": "rlAdVfp1hZ4|1:22:16",
+      "bh4": "CXwEjIIcMqc|42:45",
+      "bh5": "dAS4LdvN-ZU|41:34",
+      "1": "lfGAI6czurI|1:19:32",
+      "2": "-oif9AzACK8|2:28:00",
+      "3": "6T905vdNB1E|1:56:29",
+      "4": "AzDbzmy1kao|2:20:40",
+      "5": "AbmXrDfSoEQ|2:17:34"
+    },
+    "nova": {
+      "bh1": "EA7FrfvBRoA|12:22",
+      "bh2": "wylQzuijRQM|27:41",
+      "bh3": "MIvhliptYao|37:19",
+      "1": "ra5Hn9_ogaM|40:42",
+      "2": "Q9_bdwP0haE|1:47:03",
+      "3": "UgByCI7kykk|1:20:53",
+      "4": "L72qoO6L1Vw|1:40:33"
+    },
+    "otto": {
+      "1": "AX4QHlycU2E|1:22:57",
+      "2": "RdA8s-5Kl6s|47:55",
+      "3": "l4_8puWQoqo|41:48",
+      "4": "auOUMROTbWg|57:38"
+    },
+    "robert": {
+      "bh1": "tJnLaNiZ4co|25:32",
+      "bh3": "Q8mGxGcIKMU|52:07",
+      "1": "7iIVBr2BLxA|1:03:38",
+      "2": "I9zABTuKw34|2:10:35",
+      "3": "cbptlYPfvxQ|1:41:23"
     },
     "mattin": {
       "1": "VQHmDsLqp9s|42:53"
@@ -133,49 +182,6 @@
       "bh1": "ChP-FQUpEjk|11:43",
       "bh2": "2_B660aWW8A|39:00",
       "1": "YukDRODjZ8A|43:51"
-    },
-    "knossi": {
-      "bh1": "whmMKgoMQ5c|23:12",
-      "bh2": "tJv_sVQXOQg|58:45",
-      "bh3": "rlAdVfp1hZ4|1:22:16",
-      "bh4": "CXwEjIIcMqc|42:45",
-      "bh5": "dAS4LdvN-ZU|41:34",
-      "1": "lfGAI6czurI|1:19:32",
-      "2": "-oif9AzACK8|2:28:00",
-      "3": "6T905vdNB1E|1:56:29"
-    },
-    "nova": {
-      "bh1": "EA7FrfvBRoA|12:22",
-      "bh2": "wylQzuijRQM|27:41",
-      "bh3": "MIvhliptYao|37:19",
-      "1": "ra5Hn9_ogaM|40:42",
-      "2": "Q9_bdwP0haE|1:47:03",
-      "3": "UgByCI7kykk|1:20:53",
-      "4": "L72qoO6L1Vw|1:40:33"
-    },
-    "otto": {
-      "1": "AX4QHlycU2E|1:22:57",
-      "2": "RdA8s-5Kl6s|47:55",
-      "3": "l4_8puWQoqo|41:48",
-      "4": "auOUMROTbWg|57:38"
-    },
-    "robert": {
-      "bh1": "tJnLaNiZ4co|25:32",
-      "bh3": "Q8mGxGcIKMU|52:07",
-      "1": "7iIVBr2BLxA|1:03:38",
-      "2": "I9zABTuKw34|2:10:35",
-      "3": "cbptlYPfvxQ|1:41:23"
-    },
-    "sabrina": {
-      "bh1": "aD_CYOoG6T4|15:38",
-      "bh2": "fZXyZEiAJCU|31:46",
-      "bh3": "cRyJ4yQcXKw|45:39",
-      "bh4": "F5GxPCyi05g|39:11",
-      "bh5": "wdpCKoQ8TIM|36:34",
-      "1": "BNFJo-O_rng|34:10",
-      "2": "CIZL3M-hx3U|2:03:03",
-      "3": "10cy2ps9PZU|1:40:19",
-      "4": "NeDOZR1tDFM|1:50:26"
     }
   },
   "challenges": [
