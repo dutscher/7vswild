@@ -1,13 +1,20 @@
 <script lang="ts">
     import { localStore, storedActiveSelection, storedData } from '../stores';
+    import {toHHMMSS} from '../utils'
 
     export let staffelKey;
 
     let videos;
+    let duration;
+    let durationBehind;
+    let durationReactions;
     let activeEpisodeID;
 
     storedData.subscribe(store => {
-        videos = store[staffelKey].videos
+        videos = store[staffelKey].videos;
+        duration = store[staffelKey].duration;
+        durationBehind = store[staffelKey].durationBehind;
+        durationReactions = store[staffelKey].durationReactions;
     });
 
     storedActiveSelection.subscribe(store => {
@@ -27,7 +34,7 @@
 </script>
 
 <h2>
-    Videos
+    Videos (Stunden: {toHHMMSS(duration)} | BehindTheScenes: {toHHMMSS(durationBehind)} | Reactions: {toHHMMSS(durationReactions)})
 </h2>
 <div class="results flex flex--wrap">
     {#each videos as video}
@@ -38,6 +45,7 @@
                  class:active={activeEpisodeID === video.short}
                  on:click={() => setEpisdodeID(video.short)}
                  style="background-image:url({video.thumb})">
+                <span class="duration">{video.duration}</span>
                 <img src="{video.thumb}" alt="{video.title}"/>
             </div>
             {:else}
@@ -45,7 +53,8 @@
             {/if}
             <span class="date">
                 {video.date}<br />
-                {video.reactions} Reactions<br />
+                {video.reactions} Reactions |
+                {video.durationReactions}<br />
             </span>
             <a href="{video.url}" target="_blank" title="Öffne das Video auf Youtube" class="youtube">
                 <img src="./images/youtube.svg" alt="open youtube" />
@@ -91,6 +100,19 @@
 
         &.active {
           outline: solid 3px $color-white;
+        }
+
+        .duration {
+          font-size: ms(-1);
+          font-weight: bold;
+          white-space: nowrap;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          color: white;
+          background: rgba(0,0,0,0.5);
+          padding: 2px 6px;
+          border-radius: 6px;
         }
 
         img {

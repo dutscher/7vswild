@@ -26,6 +26,7 @@
             <h3>{youtuber}</h3>
             <div class="wrapper" style="background-image: url({reactions[episodeID].thumb})">
                 <a href="{reactions[episodeID].url}" target="_blank">
+                    <span class="duration">{reactions[episodeID].duration}</span>
                     <img src="{reactions[episodeID].thumb}" alt="{reactions[episodeID].title}"/>
                 </a>
             </div>
@@ -65,12 +66,19 @@
       background-size: cover;
       background-position: center;
       border-radius: $border-radius-lg;
+      position: relative;
 
-      span {
+      .duration {
         font-size: ms(-1);
-        display: block;
         font-weight: bold;
         white-space: nowrap;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        color: white;
+        background: rgba(0,0,0,0.5);
+        padding: 2px 6px;
+        border-radius: 6px;
       }
 
       img {

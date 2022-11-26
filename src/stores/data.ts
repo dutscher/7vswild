@@ -1,4 +1,5 @@
 import { writable } from 'svelte/store';
+import { getSecondsFromStrDuration, toHHMMSS } from '../utils';
 
 import JSON1 from '../../data/staffel-1.json';
 import JSON2 from '../../data/staffel-2.json';
@@ -11,7 +12,16 @@ export const storedData = writable([]);
 //  img.youtube.com/vi/[Video-ID]/default.jpg
 const youtubeVideoUrl = (ID) => !!ID ? `https://www.youtube.com/watch?v=${ID}` : '';
 const youtubeThumbUrl = (ID) => `https://img.youtube.com/vi/${ID}/default.jpg`;
-const preparedStores = [{status: 0, reactions: [], videos: []}, JSON1, JSON2];
+const defaultStore = {
+    duration: 0,
+    durationBehind: 0,
+    durationReactions: 0,
+    status: {},
+    reactions: [],
+    videos: [],
+    challenges: []
+};
+const preparedStores = [defaultStore, {...defaultStore, ...JSON1}, {...defaultStore, ...JSON2}];
 
 preparedStores.map((store, storeIndex) => {
     if (store.status === 0) {
@@ -37,15 +47,27 @@ preparedStores.map((store, storeIndex) => {
     });
 
     const videosLength = store.videos.length;
+
     store.videos = store.videos.map((video, index) => {
         let reactions = 0;
+        let durationReactions = 0;
+
         Object.keys(store.reactions).map(challenger => {
             if (video.short in store.reactions[challenger]) {
+                const [youtubeID, duration] = store.reactions[challenger][video.short].split('|');
+                durationReactions += getSecondsFromStrDuration(duration);
                 reactions++;
             }
         });
 
         const [youtubeID, duration] = video.id.split('|');
+
+        if (!video.short.includes('bh')) {
+            store.duration += getSecondsFromStrDuration(duration);
+        } else {
+            store.durationBehind += getSecondsFromStrDuration(duration);
+        }
+        store.durationReactions += durationReactions;
 
         return {
             id: videosLength - index,
@@ -54,8 +76,9 @@ preparedStores.map((store, storeIndex) => {
             thumb: youtubeThumbUrl(youtubeID),
             date: video.date,
             short: video.short,
-            duration,
+            duration: toHHMMSS(getSecondsFromStrDuration(duration)),
             reactions,
+            durationReactions: toHHMMSS(durationReactions),
         }
     });
 
@@ -64,15 +87,15 @@ preparedStores.map((store, storeIndex) => {
         return Object.entries(store.reactions[challenger]).map(([videoID, youtubeInfos]) => {
             // @ts-ignore
             const [youtubeID, duration] = youtubeInfos.split('|');
-            if(!!youtubeID) {
+            if (!!youtubeID) {
                 store.reactions[challenger][videoID] = {
                     url: youtubeVideoUrl(youtubeID),
                     thumb: youtubeThumbUrl(youtubeID),
-                    duration,
+                    duration: toHHMMSS(getSecondsFromStrDuration(duration)),
                 };
             }
         });
-    })
+    });
 
     preparedStores[storeIndex] = store;
 })

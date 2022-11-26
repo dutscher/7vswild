@@ -1,14 +1,32 @@
 {
   "status": {
-    "knossi": "",
-    "nova": "",
-    "otto": "",
-    "fritz": "",
-    "joris": "",
-    "sascha": "",
-    "sabrina": ""
+    "knossi": "4",
+    "nova": "0",
+    "otto": "7",
+    "fritz": "6",
+    "joris": "6",
+    "sascha": "5",
+    "sabrina": "0"
   },
   "videos": [
+    {
+      "title": "Tag 3: Der Dschungel weint",
+      "id": "0KfIrDwtWts|1:28:59",
+      "date": "26. November 2022",
+      "short": "7"
+    },
+    {
+      "title": "Wieso 7vs.Wild fast gescheitert wäre!",
+      "id": "HS8YYIf6fvY|27:53",
+      "date": "25. November 2022",
+      "short": "bh7"
+    },
+    {
+      "title": "Tag 2+3: Krokodil am Lager",
+      "id": "obCV8P-nCDs|1:27:58",
+      "date": "23. November 2022",
+      "short": "6"
+    },
     {
       "title": "Tag 2: Fritz am Ende",
       "id": "hwz575b865U|1:18:24",
@@ -22,7 +40,7 @@
       "short": "bh6"
     },
     {
-      "title": "Tag 1: Die erste Nacht",
+      "title": "Tag 1+2: Die erste Nacht",
       "id": "7g1j1QzUNmI|1:24:38",
       "date": "14. November 2022",
       "short": "4"
@@ -81,18 +99,22 @@
       "bh1": "D8q-Wdoe2EQ|18:16",
       "bh2": "XMNzXxHcmys|51:01",
       "1": "sBEbXWDLg2Y|1:04:54",
-      "2": "3dkiHM8dz9g|2:25:51"
+      "2": "3dkiHM8dz9g|2:25:51",
+      "3": "Up_x5t096Vg|1:41:17",
+      "4": "hBDhNgWho6A|2:02:55"
     },
     "joris": {
       "bh2": "aRSkFCqVA-Y|35:25",
       "bh3": "u1iMKFSBaSI|47:51",
       "bh4": "CGn-6U9q6ao|44:51",
       "bh5": "fcpuGyqzNbA|45:35",
+      "bh6": "K80zZoi3kqU|38:46",
       "1": "OD2dRQGlAEw|47:20",
       "2": "WhXva9BPn7E|2:24:03",
       "3": "mM-9vDusimw|1:43:39",
       "4": "Wtcl2fNzdiw|2:25:21",
-      "5": "RrpjdyXKDUA|1:17:54"
+      "5": "RrpjdyXKDUA|1:17:54",
+      "6": "jhaM-Yvhycg|2:36:53"
     },
     "sascha": {
       "bh1": "sTtWWz2Omss|20:45",
@@ -105,7 +127,8 @@
       "2": "qB-OCQ3-sC4|1:53:57",
       "3": "rAoDj--JjpU|1:26:22",
       "4": "nyAXFN5SSxQ|1:42:41",
-      "5": "Gtv0eH-YG6w|1:27:50"
+      "5": "Gtv0eH-YG6w|1:27:50",
+      "6": "cmgQIRoc26g|1:53:00"
     },
     "sabrina": {
       "bh1": "aD_CYOoG6T4|15:38",
@@ -129,7 +152,8 @@
       "2": "-oif9AzACK8|2:28:00",
       "3": "6T905vdNB1E|1:56:29",
       "4": "AzDbzmy1kao|2:20:40",
-      "5": "AbmXrDfSoEQ|2:17:34"
+      "5": "AbmXrDfSoEQ|2:17:34",
+      "6": "erXAYb5VvFo|2:20:10"
     },
     "nova": {
       "bh1": "EA7FrfvBRoA|12:22",
@@ -139,7 +163,8 @@
       "2": "Q9_bdwP0haE|1:47:03",
       "3": "UgByCI7kykk|1:20:53",
       "4": "L72qoO6L1Vw|1:40:33",
-      "5": "Q5JB7xFV5_A|1:33:40"
+      "5": "Q5JB7xFV5_A|1:33:40",
+      "6": "Q3DR2LuyvH8|1:48:56"
     },
     "otto": {
       "bh1": "4DdxkwPQXiE|22:07",
@@ -154,12 +179,17 @@
     "robert": {
       "bh1": "tJnLaNiZ4co|25:32",
       "bh3": "Q8mGxGcIKMU|52:07",
+      "bh5": "gFB-Agv9nXo|28:03",
       "1": "7iIVBr2BLxA|1:03:38",
       "2": "I9zABTuKw34|2:10:35",
-      "3": "cbptlYPfvxQ|1:41:23"
+      "3": "cbptlYPfvxQ|1:41:23",
+      "4": "Wdr9PJ4dasQ|2:58:30"
     },
     "mattin": {
-      "1": "VQHmDsLqp9s|42:53"
+      "1": "VQHmDsLqp9s|42:53",
+      "2": "6lcjE-tNd9o|2:05:22",
+      "3": "ek0gNHyAJrQ|1:24:28",
+      "4": "ty1yRfKG51o|1:48:55"
     },
     "fabio": {
       "bh1": "IDV9sDtm2Cg|26:38",
@@ -175,7 +205,8 @@
       "1": "KtBanpI-gg0|39:58",
       "2": "onQCySrCP-4|1:55:55",
       "3": "jwuF6KavCMs|1:33:34",
-      "4": "HM8gNyDR3IQ|1:47:49"
+      "4": "HM8gNyDR3IQ|1:47:49",
+      "6": "RDXuTCi9hmU|2:03:27"
     },
     "wandermut": {
       "bh1": "rdHduvTJAc8|11:41",
@@ -183,6 +214,8 @@
       "bh3": "ZFqbw1egbqk|41:16",
       "bh4": "4qfRWEfgQ5I|42:49",
       "bh5": "Sa5pQgfuBA4|58:22",
+      "bh6": "wtXfL_vyI5M|54:51",
+      "bh7": "Gubn0gl1OKg|55:49",
       "1": "egaNsUvI0UQ|49:53"
     },
     "dave": {
@@ -193,15 +226,27 @@
   },
   "challenges": [
     {
-      "title": "Tag 2. Bogen bauen",
+      "title": "Tag 3. Naturfotograf",
       "challengers": {
-        "fritz": "?",
+        "otto": "",
+        "fritz": "",
+        "joris": "",
+        "sascha": "",
+        "knossi": "",
+        "nova": "",
+        "sabrina": ""
+      }
+    },
+    {
+      "title": "Tag 2. Pfeil & Bogen",
+      "challengers": {
+        "otto": "6,4m",
+        "fritz": "5m",
         "joris": "5m",
-        "sabrina": "?",
-        "knossi": "20cm",
-        "sascha": "?",
-        "nova": "?",
-        "otto": "4m"
+        "sascha": "2,5m",
+        "knossi": "0,2m",
+        "nova": "-",
+        "sabrina": "-"
       }
     },
     {
