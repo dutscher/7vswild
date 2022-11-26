@@ -11,7 +11,7 @@ export const storedData = writable([]);
 //  img.youtube.com/vi/[Video-ID]/0.jpg
 //  img.youtube.com/vi/[Video-ID]/default.jpg
 const youtubeVideoUrl = (ID) => !!ID ? `https://www.youtube.com/watch?v=${ID}` : '';
-const youtubeThumbUrl = (ID) => `https://img.youtube.com/vi/${ID}/default.jpg`;
+const youtubeThumbUrl = (ID) => `https://img.youtube.com/vi/${ID}/0.jpg`;
 const defaultStore = {
     duration: 0,
     durationBehind: 0,
