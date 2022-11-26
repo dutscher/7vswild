@@ -32,7 +32,7 @@
     <Reactions {staffelKey}/>
     <br/>
     <br/>
-    <Results {staffelKey}><h2>Teilnehmer <!-- (nach "{latestVideo.title}")--></h2></Results>
+    <Results {staffelKey}><h2>Teilnehmerranking <!-- (nach "{latestVideo.title}")--></h2></Results>
     <Challenges {staffelKey}/>
 
     <br/>
