@@ -10,10 +10,22 @@
   },
   "videos": [
     {
-      "title": "Tag 3: Der Dschungel weint",
-      "id": "0KfIrDwtWts|1:28:59",
-      "date": "26. November 2022",
-      "short": "7"
+      "title": "Tag 4: Code Yellow",
+      "id": "QMbaRVtXNs0|1:29:32",
+      "date": "03. Dezember 2022",
+      "short": "9"
+    },
+    {
+      "title": "Eine Gefahr für die 7vs.Wild Teilnehmer!",
+      "id": "DpfSXPtiQTM|17:48",
+      "date": "02. Dezember 2022",
+      "short": "bh8"
+    },
+    {
+      "title": "Tag 3: Überflutete Shelter",
+      "id": "I9Q7XNwPuUU|1:08:12",
+      "date": "30. November 2022",
+      "short": "8"
     },
     {
       "title": "Wieso 7vs.Wild fast gescheitert wäre!",
@@ -119,7 +131,8 @@
       "4": "Wtcl2fNzdiw|2:25:21",
       "5": "RrpjdyXKDUA|1:17:54",
       "6": "jhaM-Yvhycg|2:36:53",
-      "7": "ixhPvXT3RDw|2:48:46"
+      "7": "ixhPvXT3RDw|2:48:46",
+      "8": "9k4fegkTHMg|1:54:21"
     },
     "sascha": {
       "bh1": "sTtWWz2Omss|20:45",
@@ -150,7 +163,8 @@
       "4": "NeDOZR1tDFM|1:50:26",
       "5": "JZyTfzMPHI0|1:48:21",
       "6": "HNals1FrAMI|1:58:00",
-      "7": "5CHaicaiQZs|1:53:39"
+      "7": "5CHaicaiQZs|1:53:39",
+      "8": "k4F3xXJKyXM|1:22:44"
     },
     "knossi": {
       "bh1": "whmMKgoMQ5c|23:12",
@@ -158,6 +172,7 @@
       "bh3": "rlAdVfp1hZ4|1:22:16",
       "bh4": "CXwEjIIcMqc|42:45",
       "bh5": "dAS4LdvN-ZU|41:34",
+      "bh6": "ou6-TNra8_A|39:37",
       "1": "lfGAI6czurI|1:19:32",
       "2": "-oif9AzACK8|2:28:00",
       "3": "6T905vdNB1E|1:56:29",
@@ -176,7 +191,8 @@
       "4": "L72qoO6L1Vw|1:40:33",
       "5": "Q5JB7xFV5_A|1:33:40",
       "6": "Q3DR2LuyvH8|1:48:56",
-      "7": "h6LRoz0DEk8|1:49:41"
+      "7": "h6LRoz0DEk8|1:49:41",
+      "8": "Cc1MYs77LLA|1:23:22"
     },
     "otto": {
       "bh1": "4DdxkwPQXiE|22:07",
@@ -200,7 +216,8 @@
       "2": "I9zABTuKw34|2:10:35",
       "3": "cbptlYPfvxQ|1:41:23",
       "4": "Wdr9PJ4dasQ|2:58:30",
-      "5": "48qeqy_lqU8|1:52:37"
+      "5": "48qeqy_lqU8|1:52:37",
+      "6": "Kn03XETuXUo|2:34:17"
     },
     "mattin": {
       "1": "VQHmDsLqp9s|42:53",
@@ -235,6 +252,7 @@
       "bh5": "Sa5pQgfuBA4|58:22",
       "bh6": "wtXfL_vyI5M|54:51",
       "bh7": "Gubn0gl1OKg|55:49",
+      "bh8": "iGb7NAPgKRE|48:16",
       "1": "egaNsUvI0UQ|49:53"
     },
     "dave": {
