@@ -1,12 +1,12 @@
 {
   "status": {
-    "knossi": "4",
-    "nova": "0",
-    "otto": "7",
-    "fritz": "6",
-    "joris": "6",
-    "sascha": "5",
-    "sabrina": "0"
+    "knossi": "4|6",
+    "otto": "7|7",
+    "fritz": "6|5",
+    "joris": "6|7",
+    "sascha": "5|5",
+    "sabrina": "0|2",
+    "nova*4": "0|3"
   },
   "videos": [
     {
@@ -159,6 +159,7 @@
       "bh3": "cRyJ4yQcXKw|45:39",
       "bh4": "F5GxPCyi05g|39:11",
       "bh5": "wdpCKoQ8TIM|36:34",
+      "bh8": "I7uOuHwc77M|24:40",
       "1": "BNFJo-O_rng|34:10",
       "2": "CIZL3M-hx3U|2:03:03",
       "3": "10cy2ps9PZU|1:40:19",
@@ -183,7 +184,8 @@
       "5": "AbmXrDfSoEQ|2:17:34",
       "6": "erXAYb5VvFo|2:20:10",
       "7": "WiNKiFE-AuE|2:14:12",
-      "8": "0itl37g1X_U|2:05:32"
+      "8": "0itl37g1X_U|2:05:32",
+      "9": "mMLE-6TYYeg|2:36:54"
     },
     "nova": {
       "bh1": "EA7FrfvBRoA|12:22",
@@ -271,15 +273,27 @@
   },
   "challenges": [
     {
-      "title": "Tag 3. Naturfotograf",
+      "title": "Tag 4. Mobiles Gefäß",
       "challengers": {
-        "otto": "",
-        "fritz": "",
         "joris": "",
-        "sascha": "",
+        "otto": "",
         "knossi": "",
+        "fritz": "",
+        "sascha": "",
         "nova": "",
         "sabrina": ""
+      }
+    },
+    {
+      "title": "Tag 3. Naturfotograf",
+      "challengers": {
+        "joris": "7",
+        "otto": "7",
+        "knossi": "6",
+        "fritz": "5",
+        "sascha": "5",
+        "nova": "3",
+        "sabrina": "2"
       }
     },
     {
