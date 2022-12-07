@@ -1,14 +1,20 @@
 {
   "status": {
-    "knossi": "4|6",
-    "otto": "7|7",
-    "fritz": "6|5",
-    "joris": "6|7",
-    "sascha": "5|5",
-    "sabrina": "0|2",
+    "knossi": "4|6|3",
+    "otto": "7|7|7",
+    "fritz": "6|5|5",
+    "joris": "6|7|6",
+    "sascha": "5|5|4",
+    "sabrina": "0|2|2",
     "nova*4": "0|3"
   },
   "videos": [
+    {
+      "title": "Tag 4: Neustart",
+      "id": "Trqac5PmRSs|1:18:47",
+      "date": "07. Dezember 2022",
+      "short": "10"
+    },
     {
       "title": "Tag 4: Code Yellow",
       "id": "QMbaRVtXNs0|1:29:32",
@@ -277,13 +283,12 @@
     {
       "title": "Tag 4. Mobiles Gefäß",
       "challengers": {
-        "joris": "",
-        "otto": "",
-        "knossi": "",
-        "fritz": "",
-        "sascha": "",
-        "nova": "",
-        "sabrina": ""
+        "otto": "8.35 liter",
+        "joris": "7.65 liter",
+        "fritz": "6.00 Liter",
+        "sascha": "2.50 Liter",
+        "knossi": "2.17 Liter",
+        "sabrina": "0.13 Liter"
       }
     },
     {
