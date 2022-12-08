@@ -38,7 +38,7 @@
     <br/>
     <h2>Locations</h2>
     <a href="https://www.google.de/maps/@8.2552233,-79.0934911,12.84z" target="_blank">
-        <img src="./images/location-staffel2.jpg" class="round" alt="Challengers Locations"/>
+        <img src="./images/location-staffel-2.jpg" class="round" alt="Challengers Locations"/>
     </a>
 
     <br/>
