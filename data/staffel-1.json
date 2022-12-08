@@ -227,26 +227,41 @@
   },
   "challenges": [
     {
-      "title": "Tag 1. an Land schwimmen",
+      "title": "Tag 7. Turm bauen",
       "challengers": {
-        "dave": "03:07:31 min|7",
-        "fabio": "03:47:59 min|6",
-        "bommel": "04:17:49 min|5",
-        "mattin": "04:55:06 min|4",
-        "fritz": "05:01:09 min|3",
-        "chris": "05:02:45 min|2",
-        "niklas": "05:24:30 min|1"
+        "chris": "190 cm|7",
+        "niklas": "165 cm (Angabe von Niklas direkt)|-",
+        "mattin": "155 cm|6",
+        "fritz": "154 cm|5"
       }
     },
     {
-      "title": "Tag 2. Fackel Challenge",
+      "title": "Tag 6. Insekten Essen",
       "challengers": {
-        "fritz": "59:48 min|7",
-        "niklas": "33:54 min|-",
-        "fabio": "07:18 min|6",
-        "chris": "02:45 min|5",
-        "bommel": "02:22 min|4",
-        "mattin": "01:42 min|3"
+        "fritz": "Würmer|7",
+        "niklas": "7 Insekten gefilmt, aber es ging um nix|-",
+        "mattin": "Holzkäferlarve|1",
+        "chris": "Nix auf der Insel gefunden|0"
+      }
+    },
+    {
+      "title": "Tag 5. Floß bauen",
+      "challengers": {
+        "fabio": "Floss-fichtenwurzel, kein Auftrieb|0",
+        "fritz": "Floss-lendenschurz|7",
+        "chris": "Klemm-floss, kein Auftrieb|0",
+        "mattin": "No-floss|0",
+        "niklas": "Zuwenig Auftrieb|-"
+      }
+    },
+    {
+      "title": "Tag 4. Feuerbohren",
+      "challengers": {
+        "fabio": "Lange probiert aber kein Erfolg|0",
+        "chris": "Kerbe hat gefehlt und kein Erfolg|0",
+        "mattin": "Probiert aber leider kein Erfolg|0",
+        "fritz": "Kein Material gefunden, kein Feuerbohren|0",
+        "niklas": "Probiert, aber keine Glut|-"
       }
     },
     {
@@ -261,41 +276,26 @@
       }
     },
     {
-      "title": "Tag 4. Feuerbohren",
+      "title": "Tag 2. Fackel Challenge",
       "challengers": {
-        "fabio": "Lange probiert aber kein Erfolg|0",
-        "chris": "Kerbe hat gefehlt und kein Erfolg|0",
-        "mattin": "Probiert aber leider kein Erfolg|0",
-        "fritz": "Kein Material gefunden, kein Feuerbohren|0",
-        "niklas": "Probiert, aber keine Glut|-"
+        "fritz": "59:48 min|7",
+        "niklas": "33:54 min|-",
+        "fabio": "07:18 min|6",
+        "chris": "02:45 min|5",
+        "bommel": "02:22 min|4",
+        "mattin": "01:42 min|3"
       }
     },
     {
-      "title": "Tag 5. Floß bauen",
+      "title": "Tag 1. an Land schwimmen",
       "challengers": {
-        "fabio": "Floss-fichtenwurzel, kein Auftrieb|0",
-        "fritz": "Floss-lendenschurz|7",
-        "chris": "Klemm-floss, kein Auftrieb|0",
-        "mattin": "No-floss|0",
-        "niklas": "Zuwenig Auftrieb|-"
-      }
-    },
-    {
-      "title": "Tag 6. Insekten Essen",
-      "challengers": {
-        "fritz": "Würmer|7",
-        "niklas": "7 Insekten gefilmt, aber es ging um nix|-",
-        "mattin": "Holzkäferlarve|1",
-        "chris": "Nix auf der Insel gefunden|0"
-      }
-    },
-    {
-      "title": "Tag 7. Turm bauen",
-      "challengers": {
-        "chris": "190 cm|7",
-        "niklas": "165 cm (Angabe von Niklas direkt)|-",
-        "mattin": "155 cm|6",
-        "fritz": "154 cm|5"
+        "dave": "03:07:31 min|7",
+        "fabio": "03:47:59 min|6",
+        "bommel": "04:17:49 min|5",
+        "mattin": "04:55:06 min|4",
+        "fritz": "05:01:09 min|3",
+        "chris": "05:02:45 min|2",
+        "niklas": "05:24:30 min|1"
       }
     }
   ]

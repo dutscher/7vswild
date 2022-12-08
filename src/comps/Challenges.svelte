@@ -19,7 +19,7 @@
         return results[0].split(',').join(', ');
     }
 
-    $: challengesSorted = 'challenges' in data && data.challenges.reverse().map((challenge) => {
+    $: challengesSorted = 'challenges' in data && data.challenges.map((challenge) => {
         const challengers = Object.entries(challenge.challengers).map((challenger) => {
             return {
                 name: challenger[0],

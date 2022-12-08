@@ -9,7 +9,7 @@
     });
 
     $: resultsSorted = Object.entries(data.status)
-        .map(challanger => challanger[1])
+        .map(challenger => challenger[1])
         .sort((a, b) => {
             if (a.endResult > b.endResult) {
                 return -1;
@@ -27,10 +27,11 @@
 <slot />
 <div class="results flex flex--wrap">
     {#each resultsSorted as result}
-        <div class="item{result.isOut ? ' transparent' : ''}" exit-day="{result.exitDay > -1 ? result.exitDay : ''}">
+        <div class="item{result.isOut ? ' transparent' : ''}">
             <img src="./images/challengers-{staffelKey}/{result.name}{result.isWinner ? '.winner' : ''}.png"
                  alt="{result.name}"/>
-            <strong>{result.endResult || ''}</strong>
+            <strong>{!!result.endResult ?  `${result.endResult} Punkt${result.endResult !==  1 ? 'e' : ''}` : ''}</strong><br />
+            {result.exitDay > -1 ? `Ausgeschieden an Tag ${result.exitDay}` : ''}
             <!--{#if challenger.challengePoints.length > 1}&nbsp;= {challenger.challengePoints.join(' + ')}{/if}-->
         </div>
     {/each}
@@ -49,6 +50,8 @@
     }
 
     .item {
+      text-align: center;
+
       img {
         width: 150px;
         vertical-align: middle;

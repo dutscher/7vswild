@@ -10,7 +10,7 @@
   },
   "videos": [
     {
-      "title": "Tag 4: Neustart",
+      "title": "Tag 4 + 5: Neustart",
       "id": "Trqac5PmRSs|1:18:47",
       "date": "07. Dezember 2022",
       "short": "10"
@@ -282,10 +282,21 @@
   },
   "challenges": [
     {
+      "title": "Tag 5. Axt bauen",
+      "challengers": {
+        "otto": "",
+        "joris": "",
+        "fritz": "",
+        "sascha": "",
+        "knossi": "",
+        "sabrina": ""
+      }
+    },
+    {
       "title": "Tag 4. Mobiles Gefäß",
       "challengers": {
-        "otto": "8.35 liter",
-        "joris": "7.65 liter",
+        "otto": "8.35 Liter",
+        "joris": "7.65 Liter",
         "fritz": "6.00 Liter",
         "sascha": "2.50 Liter",
         "knossi": "2.17 Liter",
@@ -325,7 +336,7 @@
         "knossi": "?",
         "sascha": "?",
         "nova": "Helm",
-        "otto": "?"
+        "otto": "Müll"
       }
     }
   ]

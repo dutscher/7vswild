@@ -28,21 +28,20 @@ preparedStores.map((store, storeIndex) => {
         return store;
     }
 
-    Object.entries(store.status).map(challenger => {
-        const tmp = ('' + challenger[1]).split('=');
-        const challengePoints = tmp[0].split('|').map((i) => parseInt(i));
-        const endResult = challengePoints.reduce((pv, cv) => pv + cv, 0);
-        const isOut = challenger[0].includes('*');
-        const isWinner = challenger[0].includes('!');
-        const tmp2 = ('' + challenger[0]).split('*');
-        const exitDay = tmp2.length > 0 ? tmp2[1] : -1;
-        store.status[challenger[0]] = {
-            name: challenger[0].replace(/\*|\!|\d/g, ''),
-            challengePoints,
+    Object.entries(store.status).map(([challengerDataNameDays, challengerDataPoints]) => {
+        const challengerPoints = challengerDataPoints.split('|').map((i) => parseInt(i));
+        const endResult = challengerPoints.reduce((pv, cv) => pv + cv, 0);
+        const isOut = challengerDataNameDays.includes('*');
+        const isWinner = challengerDataNameDays.includes('!');
+        let [challengerName, exitDay] = challengerDataNameDays.split('*');
+        challengerName = challengerName.replace('!', '');
+        store.status[challengerDataNameDays] = {
+            name: challengerName,
+            challengerPoints,
             endResult,
             isOut,
             isWinner,
-            exitDay,
+            exitDay: !!exitDay ? exitDay : -1,
         }
     });
 
