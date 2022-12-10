@@ -10,6 +10,18 @@
   },
   "videos": [
     {
+      "title": "Tag 5: Gebrochen",
+      "id": "GKtwWAdZCDM|1:20:53",
+      "date": "10. Dezember 2022",
+      "short": "11"
+    },
+    {
+      "title": "7 vs. Wild - zurück in die Zivilisation!",
+      "id": "poX0ruEezSY|15:29",
+      "date": "09. Dezember 2022",
+      "short": "bh9"
+    },
+    {
       "title": "Tag 4 + 5: Neustart",
       "id": "Trqac5PmRSs|1:18:47",
       "date": "07. Dezember 2022",
@@ -125,7 +137,8 @@
       "5": "iYuUmWjy6aE|1:43:13",
       "6": "gEGfuZFnIII|2:07:56",
       "7": "INqh0MGokI8|2:25:53",
-      "8": "NvnXUm6_pOw|1:39:45"
+      "8": "NvnXUm6_pOw|1:39:45",
+      "9": "7B59IucawJY|2:24:54"
     },
     "joris": {
       "bh2": "aRSkFCqVA-Y|35:25",
@@ -140,7 +153,9 @@
       "5": "RrpjdyXKDUA|1:17:54",
       "6": "jhaM-Yvhycg|2:36:53",
       "7": "ixhPvXT3RDw|2:48:46",
-      "8": "9k4fegkTHMg|1:54:21"
+      "8": "9k4fegkTHMg|1:54:21",
+      "9": "pn7-ww4VQ6M|2:15:31",
+      "10": "rU5oe24sezc|2:02:28"
     },
     "sascha": {
       "bh1": "sTtWWz2Omss|20:45",
@@ -195,7 +210,8 @@
       "6": "erXAYb5VvFo|2:20:10",
       "7": "WiNKiFE-AuE|2:14:12",
       "8": "0itl37g1X_U|2:05:32",
-      "9": "mMLE-6TYYeg|2:36:54"
+      "9": "mMLE-6TYYeg|2:36:54",
+      "10": "b5CFG8zb0ic|2:11:57"
     },
     "nova": {
       "bh1": "EA7FrfvBRoA|12:22",
@@ -227,7 +243,8 @@
       "4": "auOUMROTbWg|57:38",
       "5": "_pe_NOm4QM0|1:59:32",
       "6": "kwJX8tu6NjY|2:15:54",
-      "7": "ylVzwq7jazo|1:57:49"
+      "7": "ylVzwq7jazo|1:57:49",
+      "8": "xJcMILVPZ-k|1:25:58"
     },
     "robert": {
       "bh1": "tJnLaNiZ4co|25:32",
