@@ -1,11 +1,11 @@
 {
   "status": {
-    "knossi": "4|6|3",
-    "otto": "7|7|7",
-    "fritz": "6|5|5",
-    "joris": "6|7|6",
-    "sascha": "5|5|4",
-    "sabrina": "0|2|2",
+    "knossi": "4|6|3|0",
+    "otto": "7|7|7|5",
+    "fritz": "6|5|5|7",
+    "joris": "6|7|6|6",
+    "sascha": "5|5|4|0",
+    "sabrina*6": "0|2|2|0",
     "nova*4": "0|3"
   },
   "videos": [
@@ -177,7 +177,8 @@
       "9": "pn7-ww4VQ6M|2:15:31",
       "10": "rU5oe24sezc|2:02:28",
       "11": "f9ieg-gwGxc|1:58:48",
-      "12": "YpiB_Q7Y8-Q|2:12:38"
+      "12": "YpiB_Q7Y8-Q|2:12:38",
+      "13": "gwt_vvZBsWU|2:22:52"
     },
     "sascha": {
       "bh1": "sTtWWz2Omss|20:45",
@@ -200,7 +201,8 @@
       "9": "Qc9hrc2lrWs|1:51:36",
       "10": "IfLQKtxTWgw|1:52:46",
       "11": "8sov2QuRpcU|1:51:37",
-      "12": "Q9YcbIFHFb4|1:15:27"
+      "12": "Q9YcbIFHFb4|1:15:27",
+      "13": "dpZTtLRXfds|1:43:29"
     },
     "sabrina": {
       "bh1": "aD_CYOoG6T4|15:38",
@@ -240,7 +242,8 @@
       "8": "0itl37g1X_U|2:05:32",
       "9": "mMLE-6TYYeg|2:36:54",
       "10": "b5CFG8zb0ic|2:11:57",
-      "11": "iVkUpIMshVI|2:09:19"
+      "11": "iVkUpIMshVI|2:09:19",
+      "12": "JaxoAchoAZQ|1:41:15"
     },
     "nova": {
       "bh1": "EA7FrfvBRoA|12:22",
@@ -338,14 +341,24 @@
   },
   "challenges": [
     {
-      "title": "Tag 5. Axt bauen",
+      "title": "Tag 6. Temperatur",
       "challengers": {
         "otto": "",
         "joris": "",
         "fritz": "",
         "sascha": "",
-        "knossi": "",
-        "sabrina": ""
+        "knossi": ""
+      }
+    },
+    {
+      "title": "Tag 5. Präzise Gewalt",
+      "challengers": {
+        "fritz": "80/20",
+        "joris": "93/7",
+        "otto": "95/5",
+        "sascha": "-",
+        "knossi": "-",
+        "sabrina": "-"
       }
     },
     {
