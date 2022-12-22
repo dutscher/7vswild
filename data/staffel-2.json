@@ -1,15 +1,20 @@
 {
   "status": {
-    "knossi": "4|6|3|0",
-    "otto": "7|7|7|5",
-    "fritz": "6|5|5|7",
-    "joris": "6|7|6|6",
-    "sascha": "5|5|4|0",
+    "knossi": "4|6|3|0|7",
+    "otto": "7|7|7|5|6",
+    "fritz": "6|5|5|7|4",
+    "joris": "6|7|6|6|5",
+    "sascha": "5|5|4|0|0",
     "sabrina*6": "0|2|2|0",
     "nova*4": "0|3"
   },
   "videos": [
     {
+      "title": "Tag 6 + 7: Ich komme heim!",
+      "id": "GS3JIKeYQR0|1:21:29",
+      "date": "21. Dezember 2022",
+      "short": "14"
+    },{
       "title": "Tag 6: Rettung",
       "id": "66dAJRT7jTc|1:22:04",
       "date": "18. Dezember 2022",
@@ -158,7 +163,8 @@
       "8": "NvnXUm6_pOw|1:39:45",
       "9": "7B59IucawJY|2:24:54",
       "10": "oBmQ3NVo8gc|2:05:16",
-      "11": "ZsZowS7ledU|1:42:38"
+      "11": "ZsZowS7ledU|1:42:38",
+      "12": "bdEG6i_ZWAQ|1:26:41"
     },
     "joris": {
       "bh2": "aRSkFCqVA-Y|35:25",
@@ -348,11 +354,11 @@
     {
       "title": "Tag 6. Temperatur",
       "challengers": {
-        "otto": "",
-        "joris": "",
-        "fritz": "",
-        "sascha": "",
-        "knossi": ""
+        "knossi": "256,30°",
+        "otto": "68,50°",
+        "joris": "38,00°",
+        "fritz": "8,80°",
+        "sascha": "-"
       }
     },
     {
