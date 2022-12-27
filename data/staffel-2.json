@@ -10,6 +10,12 @@
   },
   "videos": [
     {
+      "title": "Tag 7: Piraten",
+      "id": "G5vjbLvAYkE|1:41:42",
+      "date": "24. Dezember 2022",
+      "short": "15"
+    },
+    {
       "title": "Code Yellow der nie gezeigt wurde - 7 vs. Wild",
       "id": "gTMMd3w65t8|21:56",
       "date": "23. Dezember 2022",
@@ -160,6 +166,7 @@
       "bh2": "XMNzXxHcmys|51:01",
       "bh3": "aXCrFJzsdp4|53:33",
       "bh4": "mfJXtn-QJzs|39:51",
+      "bh5": "-oUjirEn3CQ|31:57",
       "1": "sBEbXWDLg2Y|1:04:54",
       "2": "3dkiHM8dz9g|2:25:51",
       "3": "Up_x5t096Vg|1:41:17",
@@ -195,7 +202,8 @@
       "11": "f9ieg-gwGxc|1:58:48",
       "12": "YpiB_Q7Y8-Q|2:12:38",
       "13": "gwt_vvZBsWU|2:22:52",
-      "14": "S25mU3M4lGQ|2:55:38"
+      "14": "S25mU3M4lGQ|2:55:38",
+      "15": "x_zGrp7KUII|12:55"
     },
     "sascha": {
       "bh1": "sTtWWz2Omss|20:45",
@@ -220,7 +228,8 @@
       "10": "IfLQKtxTWgw|1:52:46",
       "11": "8sov2QuRpcU|1:51:37",
       "12": "Q9YcbIFHFb4|1:15:27",
-      "13": "dpZTtLRXfds|1:43:29"
+      "13": "dpZTtLRXfds|1:43:29",
+      "14": "23f3ryozqpU|2:00:53"
     },
     "sabrina": {
       "bh1": "aD_CYOoG6T4|15:38",
@@ -229,7 +238,8 @@
       "bh4": "F5GxPCyi05g|39:11",
       "bh5": "wdpCKoQ8TIM|36:34",
       "bh8": "I7uOuHwc77M|24:40",
-      "bh9": "m4P2HzQsf44|19:33",
+      "bh9": "m4P2HzQsf44|19:34",
+      "bh10": "q5OPoGls3nI|25:39",
       "1": "BNFJo-O_rng|34:10",
       "2": "CIZL3M-hx3U|2:03:03",
       "3": "10cy2ps9PZU|1:40:19",
@@ -307,7 +317,8 @@
       "10": "09O4GQr5PFk|1:40:40",
       "11": "uv_moHWAAS4|1:42:03",
       "12": "svJF4aw1_ok|1:44:05",
-      "13": "9UB2I6FUJwY|1:54:50"
+      "13": "9UB2I6FUJwY|1:54:50",
+      "14": "t4c9REk6PEE|1:48:31"
     },
     "robert": {
       "bh1": "tJnLaNiZ4co|25:32",
@@ -427,13 +438,13 @@
     {
       "title": "Tag 1. Mitbringsel",
       "challengers": {
-        "fritz": "?",
+        "fritz": "Mini-Traberbett",
         "joris": "Puppe",
-        "sabrina": "?",
-        "knossi": "?",
+        "sabrina": "Hängevase",
+        "knossi": "Greeni",
         "sascha": "?",
         "nova": "Helm",
-        "otto": "Müll"
+        "otto": "Müll Message"
       }
     }
   ]
