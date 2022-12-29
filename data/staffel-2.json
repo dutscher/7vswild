@@ -10,6 +10,12 @@
   },
   "videos": [
     {
+      "title": "Tag 8: King of the Jungle",
+      "id": "8LFKeHAJYXA|35:43",
+      "date": "28. Dezember 2022",
+      "short": "16"
+    },
+    {
       "title": "Tag 7: Piraten",
       "id": "G5vjbLvAYkE|1:41:42",
       "date": "24. Dezember 2022",
@@ -167,6 +173,7 @@
       "bh3": "aXCrFJzsdp4|53:33",
       "bh4": "mfJXtn-QJzs|39:51",
       "bh5": "-oUjirEn3CQ|31:57",
+      "bh6": "jKnKLyE-Hew|31:42",
       "1": "sBEbXWDLg2Y|1:04:54",
       "2": "3dkiHM8dz9g|2:25:51",
       "3": "Up_x5t096Vg|1:41:17",
@@ -229,7 +236,8 @@
       "11": "8sov2QuRpcU|1:51:37",
       "12": "Q9YcbIFHFb4|1:15:27",
       "13": "dpZTtLRXfds|1:43:29",
-      "14": "23f3ryozqpU|2:00:53"
+      "14": "23f3ryozqpU|2:00:53",
+      "15": "c5kijWkRuO4|1:56:18"
     },
     "sabrina": {
       "bh1": "aD_CYOoG6T4|15:38",
@@ -277,7 +285,8 @@
       "11": "iVkUpIMshVI|2:09:19",
       "12": "JaxoAchoAZQ|1:41:15",
       "13": "KhSIEOjfkSk|1:44:29",
-      "14": "uBySEuGgxXg|1:40:26"
+      "14": "uBySEuGgxXg|1:40:26",
+      "15": "IcBRplJjJmM|2:44:01"
     },
     "nova": {
       "bh1": "EA7FrfvBRoA|12:22",
