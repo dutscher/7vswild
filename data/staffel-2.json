@@ -1,19 +1,38 @@
 {
   "status": {
-    "knossi": "4|6|3|0|7",
-    "otto": "7|7|7|5|6",
-    "fritz": "6|5|5|7|4",
-    "joris": "6|7|6|6|5",
-    "sascha": "5|5|4|0|0",
+    "otto!": "7|7|7|5|6|8",
+    "joris": "6|7|6|6|5|8",
+    "knossi": "4|6|3|0|7|7",
+    "fritz": "6|5|5|7|4|6",
+    "sascha": "5|5|4|0|0|5",
     "sabrina*6": "0|2|2|0",
     "nova*4": "0|3"
   },
   "videos": [
     {
-      "title": "7 vs. Wild Abholung - Unveröffentliches Material",
+      "title": "Interview: @FritzMeinecke",
+      "id": "5m6ZCr2ZhzM|12:37",
+      "date": "3. Januar 2023",
+      "short": "iv3"
+    },
+    {
+      "title": "Interview: @SabrinaOutdoor",
+      "id": "ABsyT_UowiQ|11:46",
+      "date": "2. Januar 2023",
+      "short": "iv2"
+    },
+    {
+      "title": "Interview: @SaschaHuber",
+      "id": "bkDJlD-XsPs|19:23",
+      "date": "1. Januar 2023",
+      "short": "iv1"
+    },
+    {
+      "title": "7 vs. Wild Abholung - Unveröffentlichtes Material",
       "id": "cueXBpTJr2c|57:15",
-      "date": "29. Dezember 2022",
+      "date": "31. Dezember 2022",
       "short": "bh12"
+    },
     {
       "title": "Tag 8: King of the Jungle",
       "id": "8LFKeHAJYXA|35:43",

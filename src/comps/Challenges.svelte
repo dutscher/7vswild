@@ -16,7 +16,7 @@
 
     const showDescription = (result) => {
         const results = result.split('|');
-        return results[0].split(',').join(', ');
+        return results[0];
     }
 
     $: challengesSorted = 'challenges' in data && data.challenges.map((challenge) => {
