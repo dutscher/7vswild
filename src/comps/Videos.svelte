@@ -5,16 +5,12 @@
     export let staffelKey;
 
     let videos;
-    let duration;
-    let durationBehind;
-    let durationReactions;
+    let durations;
     let activeEpisodeID;
 
     storedData.subscribe(store => {
         videos = store[staffelKey].videos;
-        duration = store[staffelKey].duration;
-        durationBehind = store[staffelKey].durationBehind;
-        durationReactions = store[staffelKey].durationReactions;
+        durations = store[staffelKey].durations;
     });
 
     storedActiveSelection.subscribe(store => {
@@ -28,24 +24,31 @@
             return store;
         });
 
+        document.querySelector('#reactions').scrollIntoView({behavior: "smooth", block: "center"});
+
         localStore.set('latestData', JSON.stringify({staffelKey, episodeID: episodeID}));
     }
-
 </script>
 
-<h2>
-    Videos (Stunden: {toHHMMSS(duration)} | BehindTheScenes: {toHHMMSS(durationBehind)} | Reactions: {toHHMMSS(durationReactions)})
-</h2>
+<h2 class="mb0">Videos ({videos.length}): {toHHMMSS(durations.all)} Stundenmaterial / {toHHMMSS(durations.reactions.all)} Reactions</h2>
+<h3>
+    Hauptserie: {toHHMMSS(durations.main)} / {toHHMMSS(durations.reactions.main)} (hh:mm:ss)<br />
+    Behind The Scenes: {toHHMMSS(durations.behindthescenes)} / {toHHMMSS(durations.reactions.behindthescenes)} (hh:mm:ss)<br />
+    Interview: {toHHMMSS(durations.interview)} / {toHHMMSS(durations.reactions.interview)} (hh:mm:ss)<br />
+</h3>
 <div class="results flex flex--wrap">
     {#each videos as video}
         <div class="item">
-            <span class="title">{video.id}) {video.title}</span>
+            <span class="title">{video.title}</span>
             {#if !!video.url}
             <div class="wrapper"
                  class:active={activeEpisodeID === video.short}
                  on:click={() => setEpisdodeID(video.short)}
                  style="background-image:url({video.thumb})">
-                <span class="duration">{video.duration}</span>
+                {#if video.type !== 'interview'}
+                    <span class="short {video.type}">{video.short.replace('bts', '')}. Folge</span>
+                {/if}
+                <span class="duration {video.type}">{video.duration}</span>
                 <img src="{video.thumb}" alt="{video.title}"/>
             </div>
             {:else}
@@ -53,7 +56,7 @@
             {/if}
             <span class="date">
                 {video.date}<br />
-                {video.reactions} Reactions |
+                Reactions: {video.reactions} |
                 {video.durationReactions}<br />
             </span>
             <a href="{video.url}" target="_blank" title="Öffne das Video auf Youtube" class="youtube">
@@ -65,6 +68,10 @@
 
 <style lang="scss">
   @import '../scss/variables';
+
+  .mb0 {
+    margin-bottom: -16px;
+  }
 
   .results {
     gap: $space-md;
@@ -102,6 +109,7 @@
           outline: solid 3px $color-white;
         }
 
+        .short,
         .duration {
           font-size: ms(-1);
           font-weight: bold;
@@ -113,6 +121,15 @@
           background: rgba(0,0,0,0.5);
           padding: 2px 6px;
           border-radius: 6px;
+
+          &.behindthescenes {
+            bottom: 20px;
+          }
+        }
+
+        .short {
+          left: 0;
+          right: auto;
         }
 
         img {

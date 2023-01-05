@@ -13,9 +13,18 @@ export const storedData = writable([]);
 const youtubeVideoUrl = (ID) => !!ID ? `https://www.youtube.com/watch?v=${ID}` : '';
 const youtubeThumbUrl = (ID) => `https://img.youtube.com/vi/${ID}/0.jpg`;
 const defaultStore = {
-    duration: 0,
-    durationBehind: 0,
-    durationReactions: 0,
+    durations: {
+        all: 0,
+        main: 0,
+        behindthescenes: 0,
+        interview: 0,
+        reactions: {
+            all: 0,
+            main: 0,
+            behindthescenes: 0,
+            interview: 0,
+        }
+    },
     status: {},
     reactions: [],
     videos: [],
@@ -60,17 +69,17 @@ preparedStores.map((store, storeIndex) => {
         });
 
         const [youtubeID, duration] = video.id.split('|');
+        const videoType = video.short.includes('bts') ? 'behindthescenes' : video.short.includes('iv') ? 'interview' : 'main';
 
-        if (!video.short.includes('bh')) {
-            store.duration += getSecondsFromStrDuration(duration);
-        } else {
-            store.durationBehind += getSecondsFromStrDuration(duration);
-        }
-        store.durationReactions += durationReactions;
+        store.durations[videoType] += getSecondsFromStrDuration(duration);
+        store.durations.reactions[videoType] += durationReactions;
+        store.durations.all += getSecondsFromStrDuration(duration);
+        store.durations.reactions.all += durationReactions;
 
         return {
             id: videosLength - index,
             title: video.title,
+            type: videoType,
             url: youtubeVideoUrl(youtubeID),
             thumb: youtubeThumbUrl(youtubeID),
             date: video.date,

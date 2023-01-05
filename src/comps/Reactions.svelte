@@ -16,7 +16,7 @@
 </script>
 
 {#if episodeID}
-<h2>
+<h2 id="reactions">
     Reactions von Folge "{data.videos && data.videos.find(video => video.short === episodeID).title}"
 </h2>
 <div class="reactions flex flex--wrap">
