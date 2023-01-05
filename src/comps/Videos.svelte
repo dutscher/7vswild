@@ -115,21 +115,28 @@
           font-weight: bold;
           white-space: nowrap;
           position: absolute;
-          bottom: 0;
+          bottom: 20px;
           right: 0;
           color: white;
           background: rgba(0,0,0,0.5);
           padding: 2px 6px;
-          border-radius: 6px;
+          border-radius: $border-radius-lg;
 
-          &.behindthescenes {
-            bottom: 20px;
+          &:not(.behindthescenes) {
+            bottom: 0;
+            border-bottom-right-radius: $border-radius-xl;
           }
         }
 
         .short {
           left: 0;
           right: auto;
+
+          &:not(.behindthescenes) {
+            bottom: 0;
+            border-bottom-right-radius: $border-radius-lg;
+            border-bottom-left-radius: $border-radius-xl;
+          }
         }
 
         img {
