@@ -17,7 +17,7 @@
 
 {#if episodeID}
 <h2 id="reactions">
-    Reactions von Folge "{data.videos && data.videos.find(video => video.short === episodeID).title}"
+    Reactions von Folge "{data.videos && data.videos.find(video => video.short === episodeID)}"
 </h2>
 <div class="reactions flex flex--wrap">
     {#each Object.entries(data.reactions) as [youtuber, reactions]}
